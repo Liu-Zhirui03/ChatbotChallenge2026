@@ -151,8 +151,8 @@ def retrieve(question: str, k: int = None, where: dict = None) -> list[dict]:
     return hybrid_retrieve(question, dense, k=requested, where=where)
 
 
-def _retrieve_and_rerank(question: str, where: dict | None = None,
-                         k: int | None = None) -> list[dict]:
+def _retrieve_and_rerank(question: str, where: Optional[dict] = None,
+                         k: Optional[int] = None) -> list[dict]:
     final_k = k or CONFIG["k"]
     candidates = _retrieve_safe(question, k=CONFIG["candidate_k"], where=where)
     return rerank_candidates(question, candidates, k=final_k)
