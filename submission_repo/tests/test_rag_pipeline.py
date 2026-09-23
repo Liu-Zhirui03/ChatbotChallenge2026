@@ -204,6 +204,18 @@ class AnswerTests(unittest.TestCase):
         self.assertEqual(result, fallback)
         self.assertEqual(retrieve.call_count, 2)
 
+    def test_number_questions_no_longer_request_fifty_chunks(self) -> None:
+        evidence = [{"text": "Verified aggregate: 7", "metadata": {}}]
+        with patch.object(answer, "_retrieve_safe", return_value=evidence) as retrieve, patch.object(
+            answer, "rerank_candidates", return_value=evidence
+        ), patch.object(answer, "chat", return_value="7"):
+            result = answer.rag_answer("How many 3D printers are there in total?")
+        self.assertEqual(result, "7")
+        self.assertEqual(retrieve.call_args.kwargs["k"], answer.CONFIG["candidate_k"])
+
+    def test_plain_and_does_not_trigger_subquestion_llm(self) -> None:
+        self.assertFalse(answer._needs_split("HKU, Engineering, and what?"))
+
 
 if __name__ == "__main__":
     unittest.main()

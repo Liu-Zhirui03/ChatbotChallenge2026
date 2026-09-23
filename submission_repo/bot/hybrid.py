@@ -7,6 +7,8 @@ import re
 import sqlite3
 from pathlib import Path
 
+from bot.knowledge import expand_query, retrieve_knowledge
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_FTS_PATH = PROJECT_ROOT / "data" / "text_search.sqlite"
@@ -190,10 +192,15 @@ def _rule_adjustment(question: str, candidate: dict) -> float:
 
 
 def hybrid_rank(question: str, dense: list[dict], lexical: list[dict],
-                k: int) -> list[dict]:
+                k: int, knowledge: list[dict] | None = None) -> list[dict]:
     """Fuse ranks, apply transparent rules, and cap repeated documents."""
     candidates: dict[str, dict] = {}
-    for source, values, weight in (("dense", dense, 1.0), ("bm25", lexical, 1.15)):
+    sources = (
+        ("dense", dense, 1.0),
+        ("bm25", lexical, 1.15),
+        ("knowledge", knowledge or [], 1.35),
+    )
+    for source, values, weight in sources:
         for rank, value in enumerate(values, 1):
             key = _candidate_key(value)
             if key not in candidates:
@@ -209,6 +216,12 @@ def hybrid_rank(question: str, dense: list[dict], lexical: list[dict],
             record["retrieval_sources"].append(source)
             if source == "dense" and value.get("distance") is not None:
                 record["distance"] = value["distance"]
+            if source == "knowledge":
+                # A provenance-backed fact is more precise than an ordinary
+                # semantic mention. Its local score still gates this boost, so
+                # a fact matching only one generic word cannot dominate.
+                knowledge_score = max(0.0, float(value.get("knowledge_score", 0.0)))
+                record["hybrid_score"] += min(0.080, 0.040 * knowledge_score)
 
     for record in candidates.values():
         record["hybrid_score"] += _rule_adjustment(question, record)
@@ -243,5 +256,12 @@ def hybrid_rank(question: str, dense: list[dict], lexical: list[dict],
 def hybrid_retrieve(question: str, dense: list[dict], k: int = 5,
                     where: dict | None = None,
                     path: Path = DEFAULT_FTS_PATH) -> list[dict]:
-    lexical = bm25_retrieve(question, k=max(30, k * 3), where=where, path=path)
-    return hybrid_rank(question, dense, lexical, k=k)
+    expanded = expand_query(question)
+    lexical = bm25_retrieve(expanded, k=max(30, k * 3), where=where, path=path)
+    knowledge = retrieve_knowledge(question, k=max(10, k))
+    if where:
+        knowledge = [
+            item for item in knowledge
+            if _where_matches(item.get("metadata", {}), where)
+        ]
+    return hybrid_rank(question, dense, lexical, k=k, knowledge=knowledge)
