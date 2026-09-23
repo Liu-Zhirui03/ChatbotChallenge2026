@@ -18,6 +18,7 @@ import hashlib
 import json
 import re
 import time
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, urlunparse
@@ -85,6 +86,8 @@ REMOVE_SELECTORS = (
     ".comments-area",
 )
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif", ".tif", ".tiff")
+TEXT_BLOCK_TAGS = {"p", "li", "td", "th", "figcaption", "blockquote"}
+HEADING_TAGS = {"h1", "h2", "h3", "h4"}
 
 
 def build_session() -> requests.Session:
@@ -245,7 +248,7 @@ def _content_root(soup: BeautifulSoup) -> Tag:
     return soup.body or soup
 
 
-def _clean_text(root: Tag) -> str:
+def _legacy_clean_text(root: Tag) -> str:
     """Extract readable text while retaining useful list/table boundaries."""
     for selector in REMOVE_SELECTORS:
         for node in root.select(selector):
@@ -321,6 +324,8 @@ def _image_records(root: Tag, page_url: str) -> list[dict]:
             "alt": re.sub(r"\s+", " ", img.get("alt", "")).strip(),
             "caption": caption_node.get_text(" ", strip=True) if caption_node else "",
             "title": img.get("title", "").strip(),
+            "width": int(width) if str(width).isdigit() else None,
+            "height": int(height) if str(height).isdigit() else None,
             "page": page_url,
             "position": position,
         })
@@ -335,7 +340,7 @@ def _meta_content(soup: BeautifulSoup, *selectors: str) -> str:
     return ""
 
 
-def _clean_title(title: str) -> str:
+def _legacy_clean_title(title: str) -> str:
     title = re.sub(r"\s+", " ", title).replace("�C", "–").strip()
     return re.sub(
         r"\s+(?:–|—|-|\|)\s+(?:Innovation Academy|Innovation Wing)$",
@@ -343,6 +348,110 @@ def _clean_title(title: str) -> str:
         title,
         flags=re.IGNORECASE,
     ).strip()
+
+
+def _normalise_text(value: str) -> str:
+    """Normalise whitespace and common legacy WordPress encoding damage."""
+    value = unicodedata.normalize("NFKC", value)
+    for broken, replacement in {
+        "\ufffdC": "\u2013",
+        "\ufffd\ufffds": "'s",
+        "\u951f\u7dba": "\u2013",
+    }.items():
+        value = value.replace(broken, replacement)
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def _clean_content_copy(root: Tag) -> Tag:
+    """Return a disposable copy with navigation and executable content removed."""
+    copy = BeautifulSoup(str(root), "html.parser")
+    clean = copy.find()
+    if clean is None:
+        return copy
+    for selector in REMOVE_SELECTORS:
+        for node in clean.select(selector):
+            node.decompose()
+    return clean
+
+
+def _clean_text(root: Tag) -> str:
+    """Extract readable text while retaining useful list/table boundaries."""
+    for br in root.select("br"):
+        br.replace_with("\n")
+    lines: list[str] = []
+    previous = ""
+    for raw_line in root.get_text("\n", strip=True).splitlines():
+        line = _normalise_text(raw_line)
+        if line and line != previous:
+            lines.append(line)
+            previous = line
+    return "\n".join(lines)
+
+
+def _clean_title(title: str) -> str:
+    title = _normalise_text(title)
+    return re.sub(
+        r"\s+(?:[-\u2013\u2014|])\s+(?:Innovation Academy|Innovation Wing)$",
+        "",
+        title,
+        flags=re.IGNORECASE,
+    ).strip()
+
+
+def _section_records(root: Tag) -> list[dict]:
+    """Preserve semantic heading boundaries for retrieval-time chunking."""
+    sections: list[dict] = []
+    current: dict = {"heading": "", "level": 0, "text": []}
+
+    def flush() -> None:
+        text = "\n".join(current["text"]).strip()
+        if text:
+            sections.append({
+                "heading": current["heading"],
+                "level": current["level"],
+                "text": text,
+            })
+
+    for node in root.find_all([*HEADING_TAGS, *TEXT_BLOCK_TAGS]):
+        if node.name in TEXT_BLOCK_TAGS and node.find_parent(TEXT_BLOCK_TAGS):
+            continue
+        value = _normalise_text(node.get_text(" ", strip=True))
+        if not value:
+            continue
+        if node.name in HEADING_TAGS:
+            flush()
+            current = {"heading": value, "level": int(node.name[1]), "text": []}
+        elif not current["text"] or current["text"][-1] != value:
+            current["text"].append(value)
+    flush()
+    return sections
+
+
+def _json_ld_dates(soup: BeautifulSoup) -> tuple[str, str]:
+    """Return publication and modification dates found in JSON-LD metadata."""
+    published = ""
+    modified = ""
+
+    def visit(value: object) -> None:
+        nonlocal published, modified
+        if isinstance(value, list):
+            for item in value:
+                visit(item)
+        elif isinstance(value, dict):
+            if not published and isinstance(value.get("datePublished"), str):
+                published = value["datePublished"].strip()
+            if not modified and isinstance(value.get("dateModified"), str):
+                modified = value["dateModified"].strip()
+            for item in value.values():
+                if isinstance(item, (dict, list)):
+                    visit(item)
+
+    for script in soup.select('script[type="application/ld+json"]'):
+        try:
+            visit(json.loads(script.string or script.get_text()))
+        except (json.JSONDecodeError, TypeError):
+            continue
+    return published, modified
 
 
 def _is_wing_two_page(page: dict) -> bool:
@@ -379,21 +488,30 @@ def extract(html: str, url: str, retrieved_at: str | None = None) -> dict:
         if label and label not in categories:
             categories.append(label)
 
+    clean_root = _clean_content_copy(root)
+    sections = _section_records(clean_root)
+    text = _clean_text(clean_root)
+    json_published, json_modified = _json_ld_dates(soup)
+    published = _meta_content(
+        soup, 'meta[property="article:published_time"]', 'meta[name="date"]'
+    ) or json_published
+    modified = _meta_content(soup, 'meta[property="article:modified_time"]') or json_modified
+
     return {
         "url": canonical_url,
         "title": _clean_title(title),
-        "text": _clean_text(root),
+        "text": text,
+        "sections": sections,
         "images": images,
         "site": urlparse(canonical_url).netloc,
         "content_type": (
             "post" if _meta_content(soup, 'meta[property="og:type"]') == "article" else "page"
         ),
         "categories": categories,
-        "published_at": _meta_content(
-            soup, 'meta[property="article:published_time"]', 'meta[name="date"]'
-        ),
-        "modified_at": _meta_content(soup, 'meta[property="article:modified_time"]'),
+        "published_at": published,
+        "modified_at": modified,
         "retrieved_at": retrieved_at or datetime.now(timezone.utc).isoformat(),
+        "raw_id": hashlib.sha256(canonical_url.encode("utf-8")).hexdigest(),
     }
 
 
