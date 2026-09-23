@@ -7,6 +7,7 @@ rewrite.
 import re
 from typing import Optional
 
+from bot.hybrid import hybrid_retrieve
 from bot.llm import chat
 from bot.store import get_store, query
 
@@ -114,15 +115,18 @@ def _format_chunks(chunks: list[dict]) -> str:
 
 
 def retrieve(question: str, k: int = None, where: dict = None) -> list[dict]:
-    """Return the k chunks most relevant to the question.
+    """Return reranked dense + BM25 chunks most relevant to the question.
 
     Kept separate from rag_answer on purpose: it lets you check whether
     an answer was ever fetched at all, which is the only way to tell a
     retrieval failure from a prompt failure. Do not delete it even if
     you rewrite everything else.
     """
+    requested = k or CONFIG["k"]
+    pool_size = min(100, max(30, requested * 3))
     store = get_store()
-    return query(store, question, k=k or CONFIG["k"], where=where)
+    dense = query(store, question, k=pool_size, where=where)
+    return hybrid_retrieve(question, dense, k=requested, where=where)
 
 
 def rag_answer(question: str) -> str:

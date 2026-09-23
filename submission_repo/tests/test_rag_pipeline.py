@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import Mock, patch
@@ -11,7 +12,7 @@ from unittest.mock import Mock, patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from bot import answer  # noqa: E402
+from bot import answer, hybrid  # noqa: E402
 from build import images, index  # noqa: E402
 
 
@@ -30,15 +31,123 @@ class TextIndexTests(unittest.TestCase):
         }
         with patch.object(index, "get_store", return_value=object()), patch.object(
             index, "add_to_store"
-        ) as add:
+        ) as add, patch.object(index, "build_fts_index"):
             index.build_index([document])
 
         texts, metadata = add.call_args.args[1:3]
         ids = add.call_args.kwargs["ids"]
-        self.assertEqual(texts, ["Details\nDate: 1 January 2025"])
+        self.assertEqual(
+            texts,
+            [
+                "Page title: Workshop\nPage type: event\nYear: 2025\n"
+                "Section: Details\nDate: 1 January 2025"
+            ],
+        )
         self.assertEqual(metadata[0]["year"], 2025)
         self.assertEqual(metadata[0]["page_type"], "event")
         self.assertEqual(ids, ["txt_doc_123_0"])
+
+    def test_noise_pages_are_excluded_but_short_physical_pages_remain(self) -> None:
+        photo = {
+            "url": "https://example.com/photo/", "title": "Photo gallery",
+            "text": "Pitch New Tech Ideas 2025 Photo gallery", "status": "review_short",
+        }
+        physical = {
+            "url": "https://example.com/sign/", "title": "Innovation Wing Signage",
+            "text": "Words visible on the wall", "status": "review_short",
+        }
+        challenge = {
+            "url": "https://example.com/aichallenge/", "title": "Challenge",
+            "text": "Benchmark questions and answers", "status": "ready",
+        }
+        self.assertFalse(index.is_indexable(photo))
+        self.assertTrue(index.is_indexable(physical))
+        self.assertFalse(index.is_indexable(challenge))
+
+    def test_sqlite_bm25_finds_exact_deadline_terms(self) -> None:
+        records = [
+            {
+                "id": "txt_funding_0",
+                "text": "Page title: Funding Scheme\nDeadline: February 27 2026",
+                "metadata": {
+                    "document_id": "funding", "position": 0,
+                    "title": "Funding Scheme", "section": "Deadline",
+                    "url": "https://example.com/funding/", "page_type": "funding",
+                    "year": "", "status": "ready",
+                },
+            },
+            {
+                "id": "txt_gallery_0",
+                "text": "Page title: Photo gallery\nPitch New Tech Ideas 2025",
+                "metadata": {
+                    "document_id": "gallery", "position": 0,
+                    "title": "Photo gallery", "section": "",
+                    "url": "https://example.com/gallery/", "page_type": "competition",
+                    "year": 2025, "status": "review_short",
+                },
+            },
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "text.sqlite"
+            index.build_fts_index(records, path)
+            results = hybrid.bm25_retrieve("funding deadline 2026", path=path)
+        self.assertEqual(results[0]["metadata"]["document_id"], "funding")
+
+    def test_rule_rerank_demotes_empty_photo_gallery(self) -> None:
+        photo = {
+            "text": "Photo gallery Pitch New Tech Ideas 2025",
+            "metadata": {
+                "chunk_id": "photo", "document_id": "photo", "position": 0,
+                "title": "Photo gallery", "page_type": "competition",
+                "status": "review_short", "year": 2025,
+            },
+            "distance": 0.3,
+        }
+        winner = {
+            "text": "Pitch New Tech Ideas 2025 winners: SmartSocks and Gingtrolley",
+            "metadata": {
+                "chunk_id": "winner", "document_id": "pitch", "position": 4,
+                "title": "Pitching 2025", "page_type": "competition",
+                "status": "ready", "year": 2025,
+            },
+            "distance": 0.5,
+        }
+        ranked = hybrid.hybrid_rank(
+            "What were the winning teams in Pitch New Tech Ideas in 2025?",
+            [photo, winner], [], k=2,
+        )
+        self.assertEqual(ranked[0]["metadata"]["chunk_id"], "winner")
+
+    def test_rule_rerank_prefers_matching_academic_year_deadline(self) -> None:
+        correct = {
+            "text": "Applicants should submit materials by February 27 2026 (Friday).",
+            "metadata": {
+                "chunk_id": "current", "document_id": "scheme", "position": 8,
+                "title": "Funding Scheme", "page_type": "funding", "status": "ready",
+            },
+            "distance": 0.95,
+        }
+        stale = {
+            "text": "Second Round 2022-2023. Application Period: February 2023.",
+            "metadata": {
+                "chunk_id": "stale", "document_id": "scheme", "position": 6,
+                "title": "Funding Scheme", "page_type": "funding", "status": "ready",
+            },
+            "distance": 0.94,
+        }
+        tba = {
+            "text": "Funding application deadline: TBA.",
+            "metadata": {
+                "chunk_id": "tba", "document_id": "other", "position": 1,
+                "title": "Available Fundings", "page_type": "funding", "status": "ready",
+            },
+            "distance": 0.93,
+        }
+        ranked = hybrid.hybrid_rank(
+            "When was the second round funding deadline in 2025-26?",
+            [tba, stale, correct], [], k=3,
+        )
+        self.assertEqual(ranked[0]["metadata"]["chunk_id"], "current")
 
 
 class ImageIndexTests(unittest.TestCase):
