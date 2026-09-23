@@ -35,11 +35,24 @@ python -m venv .venv
 pip install -r requirements.txt
 python check_setup.py
 python build/scrape.py
+python build/clean.py
 python build/index.py
-python build/images.py
+python build/images.py --describe-only
+python build/images.py --index-only
 ```
 
 The expected generated artifacts live under `submission_repo/data/`, including scraped page/image records, cached image descriptions, and the Chroma index. Image understanding belongs at ingestion time; answering must use cached descriptions and finish within 30 seconds per question.
+`build/index.py` resets the Chroma collection, including existing image chunks;
+after every text-index rebuild, rerun `python build/images.py --index-only`.
+
+### API access
+
+The HKU Azure gateway is network-restricted. A `403 Forbidden` from chat,
+embedding, or vision calls normally means the machine is outside the HKU
+network: connect to the HKU VPN, then rerun `python check_setup.py`. Preserve
+the configured gateway routes while diagnosing a 403. Treat `401 Unauthorized`
+as a key or `.env` problem instead. Agents may run offline tests without the
+VPN, but the user must run live API checks and ingestion after connecting.
 
 Before changing retrieval, inspect retrieved chunks separately from generated answers. Store metadata needed for filtering and aggregation, including `url`, `title`, `kind`, page type, year when available, and chunk position. Batch embedding calls and keep image descriptions rich enough to capture visible text, counts, colours, spatial relationships, equipment, and signs.
 

@@ -1,7 +1,6 @@
-"""Indexer. STUB. Workshop 1 block 4.
+"""Build the text index from the reviewed, cleaned web corpus.
 
-Chunk the scraped text and write it to the store. Run this file
-directly, after build/scrape.py, to (re)build data/chroma.
+Run this file after ``build/clean.py`` to recreate ``data/chroma``.
 
 Store metadata now. Level 4 questions need to filter by year and page
 type, and adding a field later means rebuilding everything.
@@ -16,6 +15,8 @@ if __package__ in (None, ""):
 from bot.store import add_to_store, get_store
 
 CHUNK_SIZE, OVERLAP = 800, 100
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DOCUMENTS_PATH = PROJECT_ROOT / "data" / "processed" / "documents.json"
 
 
 def chunk(text: str, size: int = CHUNK_SIZE, overlap: int = OVERLAP,
@@ -54,25 +55,39 @@ def build_index(pages: list[dict], reset: bool = True):
                     "title": page.get("title", ""),
                     "position": position,
                     "kind": "text",
+                    "document_id": page.get("id", ""),
+                    "site": page.get("site", ""),
                 }
+                if section.get("heading"):
+                    meta["section"] = str(section["heading"])
                 if page.get("year") is not None:
                     meta["year"] = int(page["year"])
+                if page.get("academic_year"):
+                    meta["academic_year"] = str(page["academic_year"])
                 if page.get("page_type"):
                     meta["page_type"] = str(page["page_type"])
                 texts.append(piece)
                 metas.append(meta)
                 position += 1
     store = get_store(reset=reset)
-    add_to_store(store, texts, metas)
+    ids = [
+        f"txt_{meta.get('document_id') or number}_{meta['position']}"
+        for number, meta in enumerate(metas)
+    ]
+    add_to_store(store, texts, metas, ids=ids)
     print(f"indexed {len(texts)} chunks")
     return store
 
 
 if __name__ == "__main__":
-    pages_path = Path("data/pages.json")
-    if not pages_path.exists():
-        raise SystemExit("Missing data/pages.json. Configure and run python build/scrape.py first.")
-    pages = json.loads(pages_path.read_text())
+    if not DOCUMENTS_PATH.exists():
+        raise SystemExit(
+            "Missing data/processed/documents.json. Run python build/clean.py first."
+        )
+    pages = json.loads(DOCUMENTS_PATH.read_text(encoding="utf-8"))
     if not pages:
-        raise SystemExit("data/pages.json contains no pages; refusing to reset the existing index.")
+        raise SystemExit(
+            "data/processed/documents.json contains no documents; "
+            "refusing to reset the existing index."
+        )
     build_index(pages)

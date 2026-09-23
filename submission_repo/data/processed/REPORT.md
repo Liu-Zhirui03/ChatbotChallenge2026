@@ -1,6 +1,6 @@
 # Cleaned crawl report
 
-Generated: 2026-09-23T06:05:18.097576+00:00
+Generated: 2026-09-23T06:59:11.970181+00:00
 
 ## Counts
 
@@ -36,7 +36,7 @@ Generated: 2026-09-23T06:05:18.097576+00:00
 ## Metadata completeness
 
 - documents_with_multiple_sections: 580
-- documents_with_year: 127
+- documents_with_year: 210
 - documents_with_source_date: 0
 - documents_with_kept_images: 765
 

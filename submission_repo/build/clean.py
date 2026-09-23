@@ -157,11 +157,20 @@ def infer_year(page: dict) -> tuple[int | None, str]:
     if academic:
         start, end = academic[0]
         return start, f"{start}/{str(end)[-2:]}"
+    dated_slug = re.search(r"(?<!\d)(20\d{2})\d{4}(?!\d)", primary)
+    if dated_slug:
+        return int(dated_slug.group(1)), ""
     primary_years = [int(x) for x in re.findall(
         r"(?<!\d)(20(?:1\d|2\d|3[0-5]))(?!\d)", primary
     )]
     if primary_years:
         return primary_years[0], ""
+    if "/workshop/" in urlparse(page.get("url", "")).path.casefold():
+        opening_years = [int(x) for x in re.findall(
+            r"(?<!\d)(20(?:1\d|2\d|3[0-5]))(?!\d)", page.get("text", "")[:800]
+        )]
+        if opening_years:
+            return opening_years[0], ""
     return None, ""
 
 

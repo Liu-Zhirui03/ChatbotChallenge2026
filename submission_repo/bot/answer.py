@@ -26,7 +26,7 @@ Never reply that you do not know."""
 
 CONFIG = {
     "k": 5,    # try 3 to 10, tuned in Workshop 1 block 5
-    "wide_k": 30,
+    "wide_k": 50,
 }
 
 
@@ -80,23 +80,31 @@ def _metadata_where(question: str) -> Optional[dict]:
     must fall back to an unfiltered retrieve.
     """
     q = question.lower()
-    where: dict = {}
-    if any(w in q for w in (
+    filters: list[dict] = []
+    visual = any(w in q for w in (
         "photo", "photograph", "image", "picture", "shown",
-        "on the wall", "written on",
-    )):
-        where["kind"] = "image"
+        "poster", "on the wall", "written on",
+    ))
+    if visual:
+        filters.append({"kind": "image"})
     year = re.search(r"\b(20\d{2})\b", question)
-    if year:
-        where["year"] = year.group(1)
-    return where or None
+    if year and visual:
+        # index.py and images.py store Chroma years as integers. Chroma metadata
+        # comparisons are type-sensitive, so a string silently misses matches.
+        filters.append({"year": int(year.group(1))})
+    if not filters:
+        return None
+    return filters[0] if len(filters) == 1 else {"$and": filters}
 
 
 def _retrieve_safe(question: str, k: int = None, where: dict = None) -> list[dict]:
     try:
-        return retrieve(question, k=k, where=where)
+        chunks = retrieve(question, k=k, where=where)
+        if chunks or not where:
+            return chunks
     except Exception:
-        return retrieve(question, k=k)
+        pass
+    return retrieve(question, k=k)
 
 
 def _format_chunks(chunks: list[dict]) -> str:
