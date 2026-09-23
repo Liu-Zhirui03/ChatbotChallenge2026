@@ -1,0 +1,2394 @@
+[
+  {
+    "url": "https://innowings.engg.hku.hk/robomaster2019/",
+    "title": "Robomaster 2019",
+    "text": "Robomaster 2019\nSupervisor:\nDr. Kenneth Wong\n(Department of Computer Science)\nHost department:\nDepartment of Computer Science\nProject background\nIn this project, students will learn AI and robot related technical disciplines such as machine vision, embedded system design, mechanical control, through designing and building intelligent robots. Students will also form a team representing HKU to participate in the RoboMaster Robotics Competition hosted by DJI and compete against other teams from all over the world.\nProject details and process\nIn September 2018, the HKU RoboMaster Team started their promotion and recruitment of new members. Training sessions for the CS, EE and ME subgroups were organized, and eventually 36 members were selected to join the Team. Starting from November 2018, the Team started designing their robots according to the rules of the RoboMaster Robotics Competition, and they completed their technical proposal in February 2019. Between March and June 2019, the EE and ME subgroups of the Team started building the hardware of their robots, whereas the CS subgroup worked on the control software and machine vision algorithm for auto-targeting. In April 2019, the Team joined the trial match held in Shenzhen with 5 completed robots. Besides, the Team participated in the InnoShow in April and showcased 3 of their robots to the public. By the end of July 2019, the Team successfully built 7 robots, including 1 Hero robot, 1 Engineer robot, 3 Standard Robot, 1 Sentry robot and 1 Aerial robot, and participated in the RoboMaster 2019 International Region Competition held in Shenzhen in August 2019.\nProject result\nIn April 2019, the Team joined the trial match held in Shenzhen with 5 completed robots. Besides, the Team participated in the InnoShow in April and showcased 3 of their robots to the public. By the end of July 2019, the Team successfully built 7 robots according to the rules of RoboMaster Robotics Competition. They participated in the RoboMaster 2019 International Region Competition held in Shenzhen in August 2019, and got the 3rd Prize and the Outstanding Aesthetic Design Award. Any Kong (experiential learning officer) got the Outstanding Advisor Award.\nStudent learning and achievements\nThrough this project, students acquired knowledge in robot related technical disciplines, including machine vision, embedded system design, mechanical control, etc. They successfully applied their engineering knowledge to design and build intelligent robots for specific purposes. Besides, they were able to acquire self-learning and problem solving skills, which enable them to overcome unforeseen problems, make informed decisions and work under constraints of limited time, human and financial resources. Through discussions and collaboration between peers from different disciplines, students learnt how to communicate with peers with different backgrounds effectively, and how to be a good team player.\nFuture plan\nThe HKU RoboMaster Team will start recruiting new members again in Sep 2019. 10 of the existing members will stay in the Team to pass on their knowledge and provide training to the new team members. With their experience gained in the past year, we hope that the Team can achieve better performance in the RoboMaster 2020 competition.\nRobomaster 2020\nSharing\nProject supervisor\nDr. Kenneth Wong\nAssociate professor\nDepartment of Computer Science\nIn the past year, the team members had worked very hard to complete the design and building of their robots. Due to the limitation of available space, the Team had experienced great difficulties in test driving their robots. In particular, since drone flying is not allowed within the campus, the Team had to ship their Aerial robot to Shenzhen for tuning and test flying. This greatly limited their training and testing time with the Aerial robot. Despite all the difficulties they encountered, the Team had successfully built 7 robots and joined the competition with a full team of robots. With their technical knowledge and experience acquired this year, I am sure they can do even better in the coming competition in 2020.\nWHAT IS THE TOPIC OF THE PROJECT ?\nDevelop robots to participate in the RoboMaster 2019 Robotics Competition (https://www.robomaster.com) hosted by DJI.\nWHAT DO STUDENTS DO IN THE PROJECT?\nStudents will design and develop different types of robots that can launch projectiles in a complex battlefield. The robots are required to cooperate with each other and work together to attack the base of the opponent and at the same time protect their own base. Students will form a team to participate in the RoboMaster 2019 Robotics Competition and compete against other teams from all over the world using their self-build robots.\nWHAT WILL STUDENTS LEARN?\nStudents will learn robot related technical disciplines including machine vision, embedded system design, mechanical control, inertial navigation, human-computer interaction, etc. They will also learn how to become a good team player.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nStudents will have hands-on experience in building robots that requires comprehensive application of their engineering knowledge. They will be able to acquire self-learning skill and problem solving skill, and value the importance of teamwork.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nStudents are required to build their robots from scratch. They need to self-learn all the robot related technical disciplines. Students from the Mechanical Engineering, Electrical Engineering, and Computer Science sub-groups need to understand the design constraints of the other sub-groups and cooperate with each other to work out feasible solutions.\nWHAT MAKES A GOOD PROJECT?\nA good project should allow students to apply their knowledge as well as their creativity, and provide opportunity for them to acquire new knowledge as well as reinforce previously acquired knowledge.\n“I was very intrigued by the opportunity of making robots. Gaining hands on experience is great, but interacting at a deeper level with geeks is perhaps even more enriching :-D”\nJoyce X. X. Wang, project manager, Robomaster 2019\n“I joined this team as a freshman uncertain and confused. But now, I feel grateful of this choice, because in here, not only did I acquire precious experience of robotics, but also make treasured friendship with my teammates. I’d say this team, or this competition inspires me of some of my future direction that I want to keep pursuing.”\nLeo Y. C. Liu, group leader of the fighter group, Robomaster 2019\n“In 2018-2019 RoboMaster, I have learned a lot on programming matters for examples real-time operating system, etc. and I meet wonderful people in RoboMaster team which help me learn better in engine course in year 1. Also, RoboMaster provides me a chance that I could apply my learning in real-life problems.”\nMacro Z. Y. Mak, software developer, Robomaster 2019\n“I feel like a part of a warm family though I involved in this team in the first semester. In 2019 RoboMaster, my core role transfer from technology development to management. My communication and presentation skills developed.”\nZ. Q. Huang, captain during the year of 2018, Robomaster 2018\n“In 18/19 RoboMaster, my engineering skills and innovative thinking have strengthened a lot. This competition is exactly a reality video game. Any crazy ideas can become true, such as car moving horizontal and the mushroom in Mario Cart.”\nHostin Kuo, hardware developer, Robomaster 2019\n“During my time in RoboMaster, I have learned a lot on not only technical skills on how to develop a robot but also skills on how to interact with people. The most satisfying experience of all is to implement to the power management system to allow the car to get extra power when needed for slope climbing or acceleration.”\nFeng Yip, hardware developer\n“The competition gave an opportunity to have a glimpse of the industry-level developing procedure and a chance to get involved in real software development. In the RoboMaster, for the first time, I got to know about the function pointers and practiced OOP skills in language C. Also, for the first time I started to utilize the Git to manage a huge project with tens of thousands of codes. The experience in the team is somehow like an internship but with more motivations and a stronger sense of achievement afterward. I do enjoy the year and cherish the knowledge and practice the team has offered me.”\nDavid Y. H. Liu, software developer\n“It is a year of growth for me both academically and practically. Such competition exposes my vulnerability when facing pressure and give me a chance to adopt a more positive attitude toward it.”\nEric S. R. Chen, group leader of the aerial robot group, Robomaster 2019\n“Despite my major in Computer Engineering, I still have been able to have a taste of the mechanical designing thanks to the team. I have learned how to use Solidworks to construct models, how to simulate the motions and how to assemble components together. It broadens my horizons and offers me more knowledge than what I can gain within the classrooms.”\nRex J. L. Li, mechanical designer, Robomaster 2019\n“In the year, I mainly focus on the computer vision area. The experience greatly enhanced my abilities in coding and algorithm analyzing. It motivates me to touch some of the frontiers of scientific research. I am convinced that the team has enabled me for the upcoming challenges in the future study.”\nB. R. Dong, group leader of computer vision group, Robomaster 2019\n“The biggest takeaway here is you will never be able to experience anything like Robomaster elsewhere. It’s exhilarating complexity and intensity kept us on our feet throughout the season. I appreciate what we have achieved because of how much we have grown together as a team.”\nSean Chok, mechanical designer, Robomaster 2019\n“In this year’s RoboMaster career, I learned some of the common knowledge of mechanical design, mastered assembly skills, for future participation in the robot project has accumulated considerable experience, training engineers. During the year, especially during the two trips to Shenzhen, I had an updated understanding of how the team worked together.”\nEdwin, mechanical designer, Robomaster 2019\nProject images\nUseful links\nInstagram\nEmail\nhkurobomaster@gmail.com\nLearn more about HKU RoboMaster\nSIG - HKU RoboMaster\nStudent-initiated Courses offered by HKU RoboMaster 2022-2023\nHKU RoboMaster 2021\nHKU RoboMaster 2020\nLearn more about RoboMaster @ previous Inno Shows\nRoboMaster @ 6th Inno Show\nRoboMaster @ 5th Inno Show\nRoboMaster @ 3rd Inno Show\nRoboMaster @ 2nd Inno Show\nRoboMaster @ 1st Inno Show\nSponsors\nWe would like to extend our sincere gratitude and appreciation for all of the support we received from our donors, which include:\nLEARN MORE ABOUT OTHER AFFILIATED STUDENT INTEREST GROUPS 🙂",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-350-1024x683.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/08/Robomaster-6.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/kenneth-wong.jpg",
+        "alt": "",
+        "caption": "Project supervisor Dr. Kenneth Wong Associate professor Department of Computer Science",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 2
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-571-1024x683.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 3
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-261.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 4
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-249.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 5
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-926.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 6
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-886.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 7
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-442.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 8
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-657.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 9
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-754.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 10
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-782.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 11
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-837.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 12
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-404.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 13
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-562.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 14
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-571.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 15
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-350.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 16
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-451.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 17
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 18
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-14.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 19
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-30.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 20
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-12.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 21
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-4.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 22
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-39.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 23
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-46.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 24
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-27.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 25
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-17.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 26
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/01/robomaster-15.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 27
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/cropped-InnoWing-Logo-2048x839.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 28
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/HKUEAA.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/robomaster2019/",
+        "position": 29
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:00.214272+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/arduinobasic/",
+    "title": "Arduino basic workshop – Robot Eye",
+    "text": "Arduino basic workshop – Robot Eye\nckchui\nFebruary 21, 2019\n1:43 pm\nBasic Level\nInstall Arduino IDE\nProgram the Arduino\nWiring\nPut the 3D printing model together\nClean up the 3D model\nEstimate time for this module: max 2 hrs (exclude 3D printing)\nReference, https://www.thingiverse.com/thing:319978\nParagraph\nAdvance Level (Computer control)\nUse the computer to move the eye\nBasic communication between computer and the hardware peripheral\nExpert Level (IOT)\nApp will receive notification from the Eye\nSetup an account for IOT\nCreate Trigger event from the eye through the computer\nPlease email ak51@hku.hk if you are interested in making an robot eye. The total cost is about $70 HKD",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/02/IMG_7946-1024x768.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/arduinobasic/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/02/IMG_7936-1024x768.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/arduinobasic/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/02/RobotEye3.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/arduinobasic/",
+        "position": 3
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/02/IFTTT.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/arduinobasic/",
+        "position": 4
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:00.518957+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/duckietown2019/",
+    "title": "Duckietown AI-Driving",
+    "text": "Duckietown AI-Driving\nHost department:\nDepartment of Computer Science\nProject supervisor:\nDr. Y.K. Choi\n(Department of Computer Science)\nProject background\nDuckietown Project\nis an interdisciplinary robotics project that aims to democratise A.I. and robotics research. Through this project, students will gain tangible experience in a fun and playful way in prototyping self-driving robots and applying A.I. to the physical education platform developed by MIT for experiential learning.\nA project highlight is the students’ participation in the\nA.I. Driving Olympics (AI-DO)\ninternational contests, with the live final events, co-locate with NIPS and ICRA, the prestigious conferences in A.I. and robotics. Through the preparation of the competitions for over half a year, students will undergo intensive training, foster peer collaborations, solidify their knowledge and demonstrate a sustainable learning outcome. Students will compete in employing their A.I. models to perform autonomous real-life tasks (e.g. lane following, point-to-point navigation) on a physical platform. The trips to the live competitions of AI-DO allow students to meet peer contestants of common interest from other academic institutions (e.g. MIT, Tsinghua University, Georgia Tech), and at the same time to conduct intellectual and experience exchange on A.I. and robotics with students and researchers around the globe.\nProject leader:\nNg Ka Lok, BEng(ME) and\nWoo Chung Yu (Angel), BEng(CompSc)\nTeam member(s): Yip Tsz Fung, BEng(ME); Ching King Him, BEng(CompSc); Li Jason Chun Lok, BEng(EE); Chen Wu Juang, BEng(CompSc)\nThis project is in collaboration with Mr. Brian Tang, Executive Director, LITE Lab@HKU.\nProject details and result\nOver both semesters, the team held regular meetings and had intensive training for the preparation of the AI-DO. They have showcased their prototype robotics vehicles and set up the town at the Engineering Innoshow 2019, which marked an important step in reaching out to the HKU community.\nThe team was selected as the 2nd runner-up in the lane-following challenge in AI-DO at the International Conference on Robotics and Automation (ICRA)\nStudents learnt to build self-driving car robots and a miniature physical platform for navigation. They also gain experience in being a team player via effective work allocation and communication between team members of different expertise through solving real-life problems. They effective acquire the skills to plan, design and implement robotic systems, A.I. algorithms and software capable of operating in complex and interactive environments.\nOur debut at AI-DO will mark the launch of the HKU Duckietown Project team – our vision is to establish the team as an inclusive community for HKU students interested in self-driving cars to gain practical project experience, in the meantime to promote autonomy education and research.\nProject poster\nAward\nSecond runner-up in AI Driving Olympics at ICRA 2019\nThis article appears in the\nnews\nof the Faculty of Engineering, the University of Hong Kong\nAmong 192 competitors from all over the world and a majority of research teams, “HKU DuckieTown Team” formed by six engineering undergraduates seized the 2nd runner-up in the lane-following challenge of the “AI Driving Olympics” held by the Duckietown Foundation at the International Conference on Robotics and Automation (ICRA) in Montreal, Canada on May 20-22, 2019.\nThe team was supervised by Dr Loretta Choi of the Department of Computer Science, comprised of four of her students, Woo Chung-yu, Ching King-him, Chen Wu-juang and Lo Yat-long and two Mechanical Engineering students Ng Ka-lok and Yip Tsz-fung. The “AI Driving Olympics” was hosted by the Duckietown Foundation where teams had to score the best running in terms of travel distance and survival time of a robotic vehicle (Duckiebot) in a miniature town (Duckietown) that replicates an autonomous driving environment. “HKU DuckieTown Team” trained and deployed an imitation learning algorithm in the Duckiebots that enables them to navigate with inputs from cameras.\nSharing\nDr. Loretta Y.K. Choi\n(Project supervisor, Department of Computer Science)\nThe students have been working really hard on this project and they demonstrated great teamwork and fighting spirit. It has been an incredibly rewarding experience to work with our undergraduate Engineering students who are passionate and self-motivated in delving into the evolving AI technologies and applications, which involve a lot of exploration and experimentation. The competition provides an invaluable opportunity for students to be able to experiment with their ideas in the context of an impactful auto-driving problem, and actually see how their solution works on a playful physical miniature replica of a driving environment.\nAngel Woo (BEng(CompSc), II)\nAs my very first time travelling overseas for attending an international conference, I would proudly say that this experience was a unique, irreplaceable one. I was once a “software” person who was uninterested in hardware and felt that I could stay within my comfort zone. However, this project has intrigued me to learn the fun part about hardware, and to experience how software and hardware can be integrated with reality. Not only was it an experiential learning project that allowed me to put my knowledge in application, but it also connected me with friends of expertise and granted me the courage to try.\nKelvin Ng (BEng(ME), IV)\nDuckietown project is a comprehensive learning experience for me. Throughout the preparation for the AI Driving Olympics held at ICRA 2019 in Montreal, not only did we gain practical experience in hands-on technique for driverless car project, including networking, setting up robotics workflow, machine learning model tuning and so on, we also had a better taste of applying imitation learning to typical control engineering challenges in mechanical engineering discipline. I am glad to meet people from a different engineering background to tackle the common robotics problem and grateful for the opportunity to work with computer science students who provided valuable insights to engineering challenge from another perspective.\nEdmond Yip (BEng(ME), IV)\nDuckietown has been a competition and education programme about self-driving and has been held by prestigious institutions. This competition deepened my understanding of self-driving and artificial intelligence. It is a precious experience to witness the application of computer intelligence in the real world.\nThe visit to ICRA has offered me a preview of the global robotics industry and academia. The field has been prospering and offered our society many amazing tech improvements. In the conference, there were other competitions, talks by researchers revealing the latest trends in the field of automation and robotics and demonstrations by industry leaders and academia. The visit provoked my passion for automation and robotics.\nJonathan Ching (BEng(CS), V)\nDuckietown competition has given our team the perfect experience to get first-hand knowledge in the self-driving industry. Through this experience, I have come to appreciate the complexity of the industry but the surprisingly clear and organized engineering efforts done by the brilliant engineers.\nAs a team, we have explored a lot of potential methods in the learning algorithm. With the support of the HKU Gallant Ho Faculty of Engineering and the Department of Computer Science, we were enabled to test out various types of tracks and scenarios so that our bots can run well in the world. Thanks to our brilliant teammate, we trained the model in simulators, and test runs it on the track.\nRichie Lo (BEng(CS), VI)\nHaving been mostly working with simulators in the past, this was indubitably rewarding to apply methods of artificial intelligence to a physical robotic cart. It once again reminded us how far the AI community is from realizing Simulation to Reality (Sim2Real) as what is learned in a simulator is difficult to transfer to the actual environment. As for the conference, It was an incredible experience to interact with the international community at ICRA. It offered us the opportunity to exchange ideas and thoughts with people from all over the world. Specifically, as someone who is specialized in reinforcement learning, I have acquired refreshing perspectives from the robotics community in terms of their views on including learning components in robots for control.\nMedia links\nWebsite\nSponsors\nWe would like to extend our sincere gratitude and appreciation for all of the support we received from our donors, which include:",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Duckietown2019/photo-5.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/duckietown2019/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Duckietown2019/photo-1-1024x768.jpg",
+        "alt": "photo (1)",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/duckietown2019/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/Duckietown2019/photo-3-1024x768.jpg",
+        "alt": "photo (3)",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/duckietown2019/",
+        "position": 2
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/duckiet_poster_NEW_CMYK-Angel-Woo-2-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/duckietown2019/",
+        "position": 3
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/AI-Driving-Olympics_e.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/duckietown2019/",
+        "position": 4
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/InnoWing-Logo.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/duckietown2019/",
+        "position": 5
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/HKUEAA.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/duckietown2019/",
+        "position": 6
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:01.042664+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/mr-ready-aircraft/",
+    "title": "Mixed Reality (MR) ready aircraft",
+    "text": "Mixed Reality (MR) ready aircraft\nHost department:\nDepartment of Computer Science\nProject supervisor:\nDr. Y.K. Choi\n(Department of Computer Science)\nProject background\nStudent team joined Fly Your Idea Competition organized by Airbus, in the sub-category of Mixed Reality. Structured in 3 rounds of evaluations, the competition exposes students to the challenges and opportunities of aerospace engineering, along with the rich and diverse background of Airbus. The student has outranked hundreds of teams and worked on building a prototype and business model for bringing the state-of-the-art Mixed Reality to customers.\nAirlines have started removing IFE monitors to promote fuel economy and give way to handheld devices while losing traction and loyalty from passengers. Meanwhile, a US$300-million market of MR technology has just propelled recently and will soon become a new standard of entertainment. Under this narrative, MR ready aircraft opens up a huge variety of entertainment options to passengers and convincing business opportunities to airlines. Yet, without a standardized platform, MR developers are less interested in projects around aircraft, a subject with tedious regulations and tremendous know-how of engineering.\nSKYLINER is a middleware designed for MR developers to create and publish their work on board, where passengers and crews can benefit from limitless creations. The platform includes components that are crucial to developers, like spatial understanding of the cabin environment, and compliance to regulations. SKYLINER would soften the grind during the development stage and take care of the needs of partners in MR industry.\nMR ready aircraft and SKYLINER mean an opportunity of partnership with IT giants, reinforce the pledge of offering premium service and keep AIRBUS at the helm in the market.\nTeam information\nProject leader: Kelvin Ng, BEng(ME)\nTeam member(s): Angel Woo, BEng(CompSc); Edmond Yip, BEng(ME); Jonathan Ching, BEng(CompSc)\nProject details and process\nSince September 2018, the team had held regular weekly meetings with the project supervisor to brainstorm ideas for the 1st round and draft a proposal for the competition. Proceeding to the 2nd round, students further validated their Mixed Reality (MR) proposal by experimenting with different MR products in the market and reached out to end-users to learn about their experiences.\nThe team is one of the top 51 teams short-listed to the 2nd round of the competition. The team was also selected for the\ntop 10 most creative video\n.\nStudents learnt to apply and demonstrate knowledge and skills in MR as well as aviation applications. Throughout the preparation process of the competition, they acquired the skill to plan, design and implement mixed reality prototypes with appropriate software and hardware. They also gained precious experience in teamwork between members of different expertise.\nThe MR headsets used by the team will be shared with other undergraduate students for more experiments on MR and its applications. The report and video produced by the team would serve as a valuable reference for students who are interested in joining the Airbus Fly Your Ideas competition again in the near future. This competition experience would unlock opportunities for the Computer Science department to introduce courses related to Extended Reality (XR) technologies.\nProject poster\nSharing\nDr. Loretta Y.K. Choi\n(Project supervisor, Department of Computer Science)\nThe students have demonstrated great team spirit and their eager to learn about new technologies. It is great to see them applying knowledge learnt in school to different aspects of the project. Students also got to visit local XR companies and meet with experts in the field as well as the Airbus engineering team. Although they didn’t make past the second round, I believe they can make great use of their experience gained in this project and share them along with other students.\nAngel Woo (BEng(CompSc), II)\nTaking part in the Airbus Fly Your Ideas Competition gave me the chance to understand how technology could empower the aviation industry. By communicating with our mentor working at Airbus and our supervisor Dr Loretta Choi, our team learnt a lot about Extended Reality (XR) technologies and was excited to even get the equipment for prototyping our proposal. I could still recall how we had meetings a day in and day out just a week before the deadline in order to refine our infographics and video. I felt grateful to have encountered a great team and supervisor. This competition experience was super intensive, but equally rewarding.\nKelvin Ng (BEng(ME), IV)\nBefore participating in the Airbus Fly Your Ideas Competition, I had finished an engineering internship in an airline and studied in the United States for an exchange program specialized in aeronautical engineering. Immersing myself in the aviation industry, I understand some pain points of the industry and believe that the solutions for all those challenges lie in creativity from multi-discipline. The competition rendered me an opportunity to explore the possibility of improvement in the daily operation of the aviation field offered by mixed reality and its limitation. I felt honoured to work alongside with computer science students, aviation and mixed reality expert to work on a proposed solution for unleashing the power of mixed reality and our imagination.\nEdmond Yip (BEng(ME), IV)\nAirbus’ Fly Your Idea is a competition about developing a solution for problems facing the aviation industry and has been supported by many prestigious institutions. This competition deepened my understanding of aviation technology and industry trends. It is a precious experience to develop ideas, prototype, conduct research and pitch the ideas on the Internet.\nJonathan Ching (BEng(CompSc), V)\nAirbus Fly your Idea competition has given our team the perfect experience to get first-hand knowledge in the aerospace industry. Through this experience, I have come to appreciate the complexity of the industry but the surprisingly clear and organized engineering efforts done by the brilliant engineers.\nAs a team, we have explored a lot of potential application of Augmented Reality headsets in the setting of aircraft. With the support of vis-lab, we were enabled to test out various types of googles that are state of the art.\nSponsors\nWe would like to extend our sincere gratitude and appreciation for all of the support we received from our donors, which include:\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/airbus_poster_CMYK-Angel-Woo-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/mr-ready-aircraft/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/InnoWing-Logo.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/mr-ready-aircraft/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/HKUEAA.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/mr-ready-aircraft/",
+        "position": 2
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:01.528544+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid9/",
+    "title": "Design secure digital wallets",
+    "text": "Design secure digital wallets\nFinal Year Project\nfrom Department of Computer Science\nProject supervisor: Dr. J.T.H. Yuen\nckchui\nApril 25, 2019\n2:16 pm\nProject information\nProject descriptions\nThis aim of the project is to design a secure crypto wallet. The application is a web application and it has incorporated 3 security features. The features are Two factor authentication, Hierarchical deterministic wallet and Multisignature technology.\nTeam information\nProject leader: Aditya Sethi, BEng(CompSc)\nProject arrangements\nDr. J.T.H. Yuen (Department of Computer Science)\nWHAT IS THE TOPIC OF THE PROJECT ?\nThe title of the project is “Design secure digital wallets”\n.\nWHAT DO STUDENTS DO IN THE PROJECT?\nAnalyze the state-of-the-art technologies of digital wallet in cryptocurrency and implement them as an online secure digital wallet service\n.\nWHAT WILL STUDENTS LEARN?\nSecure user authentication method (such as two factor authentication, multi-signature scheme) and secret key protection mechanism (multiple key derivations from a single seed value)\n.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nThis project has two learning objectives: 1. Understand the importance of security in software development and with hands-on implementation. 2. Understand the popular blockchain system and works in the user-side development of the blockchain applications\n.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThe biggest challenge of this work is that this project requires a lot of self-study before the student can start on developing the software. The student has to self-study the concept of blockchain first. He has to read the whitepapers of other digital wallet softwares to understand how other developers work on this problem. Then he needs to find a suitable platform to develop his application by himself. He has to read all the documentation of the new development platform and the new smart contract programming language. The documentation is sometimes incomplete because blockchain is a very new technology.\nWHAT MAKES A GOOD PROJECT IN THIS COURSE?\nThe project is interesting because it is related to a very popular topic – blockchain. Currently, the job market for blockchain developers are blooming and this project can help the student to work in this new industry. In fact, there are a few companies who are in touch with me about developing a secure digital wallet and I referred them to my student. This project equips the student with the knowledge of security and blockchain, which is in high demand from the industry.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/AdityaSethiCrypto-ADITYA-SETHI-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid9/",
+        "position": 0
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:02.043550+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/club-grenade/",
+    "title": "Club Grenade",
+    "text": "Club Grenade\nCourse project, COMP3329 Computer Game Design and Programming​\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nProject information\nProject descriptions\nClub Grenade is a fast-paced multiplayer action game which a group of friends and family of all ages, at a maximum of four players, can enjoy. In the game, each player controls a character who infiltrates a high-tech facility and fights through waves of enemies with grenades only. The game has a cartoony art-style with cel shading and outline. The game currently features four unique playable characters, four types of enemies, five types of grenades and a single large level with three stages, all fully animated and textured. The players win if they defeat all enemies and exit the level, or lose if all players have been defeated.\nTeam information\nProject leader: Yuen Hoi Man, BEng(CompSc)\nTeam member(s): Hung Lok Shun,\nBEng(CompSc\n); Yiu Lok Yan Serena, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website\nAwards\nWinner of the Dean’s Fund Award @ The 1st Engineering InnoShow\nThis project team was selected for the Dean’s fund award at the 1st Engineering InnoShow.\nThis team has received HK$10,000 sponsorship to participate in external competitions or incubation/ entrepreneurship/ startup programmes.\nThe best project award - COMP3329 Computer Game Design and Programming @ The 1st Engineering InnoShow\nThis project team was selected for the best project award – COMP3329 Computer Game Design and Programming at the 1st Engineering InnoShow.\nMembers of the Club Grenade project team in HKUEAA Annual Dinner",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/COMP3329Poster-HOI-MAN-YUEN-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/cover-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot1-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 2
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot2-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 3
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot3-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 4
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot4-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 5
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot5-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 6
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/cover-HOI-MAN-YUENfb.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 7
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/winner-dean-award.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 8
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/winner-best-project-award-COMP3329.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 9
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Club-Grenade_HKUEAA-1024x461.jpg",
+        "alt": "",
+        "caption": "Members of the Club Grenade project team in HKUEAA Annual Dinner",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/club-grenade/",
+        "position": 10
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:02.488636+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid12/",
+    "title": "Bookbytes",
+    "text": "Bookbytes\nCourse project, COMP3330 Interactive Mobile Application Design and Programming\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nckchui\nApril 25, 2019\n3:24 pm\nProject information\nProject descriptions\nBookbytes serves as an online social networking platform for both avid book readers and causal book readers. Users can maintain a list of books to read,already read, dropped and on hold. The defining feature is the availability of a multitude of book clubs catering to people of all ages of all tastes from all parts of the world, except maybe Antarctica. Users can also give and receive book recommendations, post on threads in the clubs they are in and also post comments in the thread. In essence, Bookbytes is a dedicated platform where book lovers can explore their ‘niche’ to their hearts’ content.Currently, only a free-app version with ad revenue pricing model is under consideration.\nTeam information\nProject leader: Sourav Padhiari, BEng(CompSc)\nTeam member(s): Amsal Lakhani,\nBEng(CompSc\n); Ankit Tibrewal, BEng(CompSc); Omer Raza, BEng(CompSc); Utkarsh Goel, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-23-at-10.47.26-AM-Sourav-Padhiari.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid12/",
+        "position": 0
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:02.981686+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/single-cell-traction-force-measurement-assay-with-multiphoton-based-protein-micropatterns/",
+    "title": "Single cell traction force measurement assay with multiphoton-based protein micropatterns",
+    "text": "Single cell traction force measurement assay with multiphoton-based protein micropatterns\nFinal Year Project\nfrom\nDepartment of Mechanical Engineering\nProject supervisor: Professor\nChan B.P.\nckchui\nApril 25, 2019\n5:01 pm\nA multiphoton-based protein micropatterning technique was developed in our lab previously. In this project, protein micropillar arrays were fabricated for cell seeding, and it was utilized for single cell traction force measurement. On the other hand, a method for encapsulating cells in collagen gel for cell therapy was also developed in the lab before. In order to improve the efficiency of cell therapy using this method, characteristics of these cells has to be identified. Therefore, the traction force of stem cells that are migrated out from the gel and the cells that are not encapsulated in the gel were measured and compared to understand the differences between them.\nProject leader: Cheung Hoi Lam, BEng in Medical Engineering\nProject poster\nProject video\nProject images\nMedia links\nWebsite",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/InnoshowPosterCheungHoiLam-Hoi-Lam-CHEUNG-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/single-cell-traction-force-measurement-assay-with-multiphoton-based-protein-micropatterns/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/figure-for-cell-navigator-mitochondrion-staining-kit-nir-fluorescence_AFZaG-Kalyn-Cheung.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/single-cell-traction-force-measurement-assay-with-multiphoton-based-protein-micropatterns/",
+        "position": 1
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:03.411469+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid18/",
+    "title": "Realistic visualization of bridge structure in a Virtual Reality environment",
+    "text": "Realistic visualization of bridge structure in a Virtual Reality environment\nFinal Year Project, CIVL4102\nFinal Year Project\nProject supervisor:\nDr. S.H. Lee\n(Department of Civil Engineering)\nckchui\nApril 25, 2019\n5:19 pm\nProject information\nProject descriptions\nEfficient collaboration of data is essential for successful project delivery of\nBuilding Information Modeling (BIM), which mainly relies on its visualization performance. VR technology can extend the advantage to create a more engaging and realistic environment for every stakeholder. As a large number of software for BIM and VR computing are available on the internet, it is vital to find the most effective workflow to transfer the project from modeling tool to the VR engine.\nIn this project, we would explore the performance of different software and hardware to find the best solution to BIM-VR collaboration workflow.\nTeam information\nProject leader: Zhong Pei Qi, BEng(CivE)\nProject arrangements\nDr. S.H. Lee (Department of Civil Engineering)\nWHAT IS THE TOPIC OF THE PROJECT ?\n‘Realistic visualization of bridge structure in a Virtual Reality environment’\nThe topic of this project is to develop a realistic virtual reality (VR) model of a bridge structure and visualize it in a fully immersive VR environment such that a player can interactively experience the bridge from various perspectives such as bridge visuals and engineering behaviors in different conditions.\nWHAT DO STUDENTS DO IN THE PROJECT?\nThe student explores VR technologies and techniques/applications for advanced visualization of bridges in a VR environment. Then, the student develops and visualizes a virtual model of a bridge that is meaningful/interesting to civil engineering students with necessary features and effects such as textures and animations based on numerical analyses.\nWHAT WILL STUDENTS LEARN?\nThe student will learn fundamentals of the VR technology and obtain hands-on exercise of how to best utilize the technology for Civil Engineering projects such as design review, engineering analysis simulations, construction simulations, and trainings.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nAdvanced computing technologies that enable engineers to realistically visualize different kinds of civil infrastructures has gained increasing attentions and been used in the current practice. Many engineering design, simulations and analyses such as numerical simulations of structural behaviors under extreme loading conditions are used and the results are visualized for civil engineers to better understand and develop best design solutions. By conducting this project, the student exposed to the technologies early and equipped with the necessary skills will be well-prepared for this current engineering practice.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThis project requires intensive modeling techniques and basic knowledge on computing such as programming skills and software design, which most students in Civil Engineering do not have. The student needs to be able to understand how a VR model is created and successfully apply the knowledge onto civil engineering projects.\nWHAT MAKES A GOOD PROJECT IN THIS COURSE?\nThere can be different levels of “reality” in a virtual model in terms of its behavior as well as its esthetics. In order to be a good project, the model should not only look as close to the actual structure as possible, but also it should be able to demonstrate the behaviors of the structure as accurately as possible.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/poster-Shirley-SZ-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid18/",
+        "position": 0
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:03.856970+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/datax/",
+    "title": "Datax",
+    "text": "Datax\nEngineering startup projects\nSupervisor: Dr. S.M. Yiu (Department of Computer Science)\nckchui\nApril 25, 2019\n5:45 pm\nProject information\nProject descriptions\nWe are a research data crowdsourcing platform for researchers & AI companies to collect & enrich data with the help from public contributors. We are founded by a group of HKU BBA(IS)/CS graduates and MSc(CS) students, supported by HKU, Cyberport and HKSTP.\nIf you need labels & annotations for your AI/ML projects, or look for manpower for collecting & preprocessing data, we can help save time & resource required to manage the data contributors and collect more quality & diverse data efficiently. Our platform currently specializes in offering:\n1. Image/Video/Audio/Doc tagging & annotation\n2. Survey\n3. Sentiment analysis\nTeam information\nProject leader: Wong Wai Chun, Kevin, BBA(IS) graduate\nTeam member(s): Lung Yue Hin Hinnes, MSc(CS); Pang Chee Hin Marvin, MSc(CS); Tam Yat Hei, BBA(IS) graduate\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/InnoShow-Poster-Datax-2.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/datax/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-1-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/datax/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-2-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/datax/",
+        "position": 2
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-3-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/datax/",
+        "position": 3
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-4-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/datax/",
+        "position": 4
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:04.312560+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/qpi/",
+    "title": "Advancing optical label-free cellular imaging – from instrumentation to cell assays",
+    "text": "Advancing optical label-free cellular imaging – from instrumentation to cell assays\nFinal Year Project\n,\nDepartment of\nElectrical and Electronic Engineering\nProject supervisor: Dr. K.K.M. Tsia (\nDepartment of\nElectrical and Electronic Engineering)\nckchui\nApril 25, 2019\n6:24 pm\nQuantitative phase imaging (QPI) is an advanced optical microscopy technique that requires no sample staining and allows quantitative measurement of biophysical parameters of the cell specimens. This technique is desirable especially in live-cell imaging, as it can yield cellular dry mass distribution, intracellular dynamics as well as size of cells with minimal intervention/damage to the sample. A compact and easily-compatible setup of QPI was developed and applied to a wide range of biomedical applications, ranging from fundamental biological studies in brain imaging, to the clinical studies in drug-screening for breast cancer cells and characterization of pathogenic bacteria biofilms.\nProject leader: Chun ha Eun, BEng(MedE)\nTeam member(s): Le Thanh Hai Dang, Chui Mei Yee\nProject poster\nProject video\nProject images\nMedia links\nWebsite\nAwards\nWinner of the Dean’s Fund Award @ The 1st Engineering InnoShow\nThis project team was selected for the Dean’s fund award at the 1st Engineering InnoShow.\nThis team has received HK$10,000 sponsorship to participate in external competitions or incubation/ entrepreneurship/ startup programmes.",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/FinalPoster-Thanh-Hai-Dang-Le-1024x1013.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/qpi/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/DPM-setup-Ha-Eun-Chun.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/qpi/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/winner-dean-award.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/qpi/",
+        "position": 2
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:04.791420+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/3d-food-printer/",
+    "title": "3D Food printer",
+    "text": "3D Food printer\nProject\nfrom\nMECH4429 Integrated Capstone Experience\nProject supervisor:\nDr. Ko M.W.L.\n(\nDepartment of Mechanical Engineering)\nckchui\nApril 25, 2019\n6:46 pm\nProject information\nProject descriptions\nThe project aims to build a 3D food printer that is user-friendly for household users, through remodelling of the TEVO Tarantula 3D printer. Upon completion on configuration of hardware and software, an extrusion system is designed based on a meat mincer. The goal of this project is to print the customised dish with food material in high precisity. Another focus of this project is exploring food material applicable for 3D printing. With rich nutrient content and high formability, potatoes is chosen to make a great show with other supporting actress. The effort paid by the team does make an exciting return. It is wished that the efficiency of the printer can be greatly enhanced in the foreseeable future and finally be a necessary for a home.\nTeam information\nProject leader: Au Chun Yin, BEng\nTeam member(s): Au Yeung Ho Lam, BEng; Kwok Hong Yiu, BEng; Lam Kin Ting BEng; Lee Hok Lun, BEng\nProject arrangements\nDr. Ko M.W.L. (Department of Mechanical Engineering)\nWHAT IS THE TOPIC OF THE PROJECT ?\nThe title of the project is “3D food printer”.\nPrevalent around the globe, three-dimensional (3D) printing technology is capable to print objects with 3D printer using various materials; so does food material. Traditional cooking method tends to be enriched by 3D printing process. In addition, food printing technology now could also be applied in commercial cooking, where some restaurants use it as gimmick. Therefore, the topic of this project is to transform an ordinary 3D printer into a food printer and explore the printable food material. Primarily 3D food printer is made to cater people with chewing and swallowing disorder, given that meals produced by food printing could be customized by patients that balance nutrition needs and visual appeal, in contrast of hospital-styled unappetizing pureed food. Hence, the motivation of this project is to introduce an accessible, affordable and manageable 3D food printer for ordinary family, especially whose family member has eating difficulty\n.\nWHAT DO STUDENTS DO IN THE PROJECT?\nThere are three sections in the project: building and remodeling the 3D printer, rebuild the extrusion system and the ejection mechanism specifically for food material on the store bought 3D printer; experimenting food materials that have the suitable rheological properties for printing with help of professional scientific instruments; rewriting the software programme that controls printer with applicable settings. After that printing trials are conducted to justify the chosen food material and to explore the best set of parameters for the remodeled 3D food printer.\nWHAT WILL STUDENTS LEARN?\nThis project transfers multiple skills to students: first, students can thoroughly understand the working mechanism of 3D printers by practically remodeling the chosen model 3D printer into food printer; secondly, students may experience academic research on different types of extruder, material and firmware which are suitable for application; moreover, students would acquire better team building and communication skills through collectively responsible group decision-making process. In addition, students will also be required to handle unpredictable challenges in the progress.\nLet those difficulties we found in our project as examples. At first, there were many errors in the printing trials and the printing results were not satisfactory. After adjustments and calibration, our remodeled printer could finally print out some simple shapes with food printing material. Thus, students will learn to overcome challenges with their own strengths.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nThis project allows students to take a proactive role to manipulate and modify a 3D printer, from constructing the printer; experimenting food material; trialing software, which realizes their theoretical knowledge through hands-on experience. Furthermore, it is a valuable experience for students to handle a project that could possibly impact society and benefit people with chewing and swallowing difficulties.\nThis project is also a preview of an engineering project at workplace in real life that as well requires preliminary research, feasibility analysis, customer marketing investigation and budgeting, which could be a comprehensive training for students becoming professional engineers whom should acquire excellent management skills, team-building ability and technical proficiency.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThe biggest challenge faced in the project was the slow flow rate of food material during extrusion. After the printer was assembled with our own designed extrusion system and ran its first trial with food material, the result is disappointing that the slow flow rate of food material resulted in a long printing time. Regarding the aim of introducing food printer for domestic use, producing dinner for hours would not be acceptable. The team had tried ways to increase the flow rate, for instance, the team redesigned the extrusion system, used a stronger motor, changed the receipt of food material for better viscosity. It was excited that the printer was finally able to print the food into shape after adopting the above changes albeit the speed of printing is slow. In the future, improving the speed of printing will be further studied.\nWHAT MAKES A GOOD PROJECT IN THIS COURSE?\nDifferent from other research-based projects, this project requires students to consider of people’s feeling towards the 3D food printer, the printing process and the printed product. The aim of the project is not simply building a machine that can print food, instead it stresses that the food printer could become a reliable source of meal for everybody, including the elderly, the kids, and people with eating disorder.\nHence, the project does not only trains students’ engineering skills and knowledge, but also helps them understanding the responsibility of engineers: bridge between scientific discoveries and their subsequent applications to human and quality of life.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Inno-show-poster-chunyin-au.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/3d-food-printer/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/NM-by-Food-Ink-Corn-Cob-Dish-Printing-Closeup-1-chunyin-au.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/3d-food-printer/",
+        "position": 1
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:05.234744+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/piscan/",
+    "title": "PiScan",
+    "text": "PiScan\nCourse project, ENGG1320 Engineers in the Modern World\nProject supervisor: Dr. K.L. Or (Department of Industrial and Manufacturing Systems Engineering)\nckchui\nApril 26, 2019\n8:43 am\nProject information\nProject descriptions\nA raspberry pi has been programmed using Linux to get the unique MAC addresses of the Wifi users and count the number of devices periodically and output the data in a text file. The data can be used to assess the crowdedness of a place.\nTeam information\nProject leader: Santiago Espinosa Mooser, BEng\nTeam member(s): Santiago Espinosa Mooser,\nBEng;\nSaha Chinmoy,\nBEng;\nEdric Julian,\nBEng;\nAu Chun Man,\nBEng;\nDai Tsz Ching,\nBEng;\nOira Daisy Nyaboke,\nBEng;\nYau Chak Hei,\nBEng\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/poster-Chinmoy-Saha.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/piscan/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/IMG_6310-Chinmoy-Saha-1-e1556241041773.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/piscan/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/IMG_6314-Chinmoy-Saha-2-e1556241054928.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/piscan/",
+        "position": 2
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/IMG_6316-Chinmoy-Saha-3-1-e1556240948432.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/piscan/",
+        "position": 3
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:05.635402+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/tenki/",
+    "title": "Tenki",
+    "text": "Tenki\nCourse project, COMP3330 Interactive Mobile Application Design and Programming\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nckchui\nApril 26, 2019\n10:03 am\nProject information\nProject descriptions\nAt Tenki, we hope to delivery accurate local weather data to Hong Kong citizens in minimal manner.\nTenki is a revolutionary weather app. Retrieving its data from Hong Kong Observatory, Tenki provides accurate local weather data to HK citizens. The redesigned minimalistic user interface provides a distinctive and holistic user experience. Users get to access their desired information at their fingertips.\nTenki updates weather information according to users’ location. Users can receive notifications in case of special weather conditions. They can also access to other information such as weather forecast and astronomic data.\nTeam information\nProject leader: Benjie Ko, BBA(IS)\nTeam member(s): Rachel Yeung, BBA(IS); Peter Po, BBA(IS); Chin Wong, BBA(IS); Ben Choi, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/COMP3330_InnoShow_Poster-Benjie-Ko-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/tenki/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Tenki_Cover-Benjie-Ko-1024x577.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/tenki/",
+        "position": 1
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:06.039375+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid22/",
+    "title": "Development of universal testing machine with digital image correlation system for soft and biomaterials",
+    "text": "Development of universal testing machine with digital image correlation system for soft and biomaterials\nProject from MECH4429 Integrated Capstone Experience\nProject supervisor: Dr. Ko M.W.L.\n(Department of Mechanical Engineering)\nProject information\nProject descriptions\nResearch on the development of new types of biomaterials has become one of the major focus in the engineering field in recent years. The biomaterial is integrated with medical engineering so it can be engineered to interact with the biological system in the human body for the different medical purpose. In order to opt for the optimal biomaterial for a certain medical purpose, several testing related to the measurement of displacement and strain should be performed on the biomaterial. This project aim to develop an Universal Testing Machine (UTM) with Digital Image Correlation method (DIC) to provide a field true strain measurement and reduces the disturbance on the local mechanical response of the local mechanical response of the testing material, providing a better, more precise and immediate strain/displacement analysis of the experiment than using the extensometer.\nTeam information\nProject leader: Dai Shui Hong Siddhartha, Mechanical Engineering\nTeam member(s): W.Y.Leung, Mechanical Engineering; C.Y.Leung, Mechanical Engineering; T.K.Pan, Mechanical Engineering; Y.W. Zheng, Engineering Science\nProject arrangements\nDr. Ko M.W.L. (Department of Mechanical Engineering)\nWHAT IS THE TOPIC OF THE PROJECT ?\nThe title of the project is “Development of Universal Testing machine with Digital Image Correlation system for soft/biomaterials”\nResearch on the development of new types of biomaterials has become one of the major focus in the engineering field in recent years. The biomaterial is integrated with medical engineering so it can be engineered to interact with the biological system in the human body for the different medical purpose. In order to opt for the optimal biomaterial for a certain medical purpose, several testing related to the measurement of displacement and strain should be performed on the biomaterial. This project aims to develop an Universal Testing Machine (UTM) with Digital Image Correlation method (DIC) to provide a full field true strain measurement and reduces the disturbance on the local mechanical response of the the local mechanical response of the testing material, providing a better, more precise and immediate strain/displacement analysis of the experiment than using the extensometer.\nWHAT DO STUDENTS DO IN THE PROJECT?\nFirst, students study the theory of material testing and DIC technology. Second, students design and build up a single column UTM for the material tensile test together with the program coding for the control and sensor system.\nAfter that, the students integrate the UTM and DIC system together, including the sample preparation and testing procedure. Also, the student connects the machine with the camera to provide data and image for DIC system analyze.\nFinally, students are successful to measure the field stress-strain distribution and proof the DIC method can improve the UTM measurement performance.\nWHAT WILL STUDENTS LEARN?\nThis project consists of two major parts including the development of an universal testing machine (UTM) and the digital image correlation (DIC) system.\nFrom the development of UTM, students acquire different experience from machine design, SolidWorks modelling and fabrication of key components. One of the vital outcomes is learning cross-discipline knowledge. Students need to develop their own control system. They need to integrate the knowledge not only from the mechanical discipline but also from computer science and electronics engineering. For example, control programme coding and circuit board design.\nFor the DIC system, students also gain different exposure in terms of MATLAB application and analysis. Students make use of MATLAB for image processing, DIC analysis and post DIC analysis. Students need to analyse the data acquired and formulate into meaningful results for calculation.\nStudents can earn these precious experience other than mechanical engineering lesson. They can also be self-motivated to equip themselves in terms of cross-discipline learning which equips them to be professional engineers in the future\n.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nThe project demonstrated how the students could apply their fundamental knowledge obtained during the first three years as an engineering student in a hands-on project. Students can rarely delve into a specific field of study and work on a hands-on project that they are interested in, most of the engineering courses would be theoretical-based. Therefore, this project acts as a balance between the practical and the theoretical element in the curriculum.\nThe project requires each student to apply their engineering sense and knowledge in different fields, such as Solid Mechanics, Stress and Strain analysis, Product Design and Manufacture, etc. Understanding every basic mechanical theory will be the basis of the capstone project, allowing students to realise the significance of each engineering courses that they’ve enrolled in the previous years.\nMore importantly, the project provides a good example to the engineering students on how to manage a project or even a start-up business in their future career, from making drafts, purchasing different key components to budget control and work distribution. The final year capstone project is not only a milestone in the engineering students’ university life, it’s also a valuable opportunity to let the students to better equip themselves before going into different industries.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThe project requires connect different independent equipment, method and system together. Students need to have a good understanding to each part of the project and develop a new method and system. That’s mean students pick up different skillset such as programming, control and digital image analyze in the short period and find the way to complete the testing system.\nWHAT MAKES A GOOD PROJECT IN THIS COURSE?\nThe project has been completed with satisfying result among all the groups. It is rare and so difficult that a machine development project can be finished with in a tight schedule. However, showing what they have learnt in their tertiary education is also an important criterion to a good project. From my observation, the team can apply their engineering sense to the project as well as the theories they learnt in lessons.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/InnoShow_2019_Mech_D04_150dpi-SHUI-HONG-SIDDHARTHA-DAI-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid22/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/InnoShow_2019_Mech_D04_cover-SHUI-HONG-SIDDHARTHA-DAI-1024x540.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid22/",
+        "position": 1
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:06.496911+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid26/",
+    "title": "eCup",
+    "text": "eCup\nEngineering startup projects​\nSupervisor: Dr. S.C. Kim, Technology Transfer Office\nckchui\nApril 26, 2019\n11:33 am\nProject information\nProject descriptions\neCup promotes coffee culture and grows whole supply chain market via digital. Our service is unique in HK and ASEANs among any other F&B solutions as we cover vertically entire user journey on coffee from knowledge, searching, ordering, e-payment, e-stamps, rewards and after purchase engagement, which gives a pioneer digital & fully automated UX. We have UI tailor made based on user’s coffee habit, innovative friends treat feature via WhatsApp (i.e. Treat friends coffee remotely), big data campaign analysis, and user behavior driven CRM. Our mission is, when you need coffee, use eCup.\nTeam information\nProject leader: Warren Lee, Startup from iDendron\nTeam member(s): Matthew Ho\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/26a.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid26/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/1-Warren-Lee.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid26/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/5-Warren-Lee.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid26/",
+        "position": 2
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/eCupCover-Warren-Lee.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid26/",
+        "position": 3
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:06.895120+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid28/",
+    "title": "Planto – Digital data driven financial advisor",
+    "text": "Planto – Digital data driven financial advisor\nEngineering startup projects​\nProject information\nProject descriptions\nPlanto is a data driven digital finance advisor that helps millennials achieve financial greatness allowing users to plan, track and stay on top\nof their progress. By automatically aggregating user’s\nsavings, credit cards, investments, loans, mortgages and retirement\naccounts – Planto can leverage AI and big data to proactively give\npredictive financial advice that is always in users’ interest.\nTeam information\nProject leader: Ankit Suri, BEng(CompSc)\nTeam member(s): Jessica Liu, Rachel Cheung\nProject poster\nProject video\nProject images\nMedia links\nProject website\nFACEBOOK\nINSTAGRAM",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Showcase_Poster_02d-1-Ankit-Suri-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid28/",
+        "position": 0
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:07.146547+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid21/",
+    "title": "Lost slime: a new home",
+    "text": "Lost slime: a new home\nCourse project, COMP3329 Computer Game Design and Programming​\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nckchui\nApril 26, 2019\n3:21 pm\nProject information\nProject descriptions\nLost Slime is a Multiplayer-Educational-Rhythm game that runs on your web browser, written in javascript with Node.js, Express.js and Socket.IO. It is designed to be lightweight and responsive to run on any PC.\nFind Slimies new houses! Players compete to stack the tallest pillar to gain a high ground — which helps Slimies in spotting new locations for housing. To stack a pillar block, players time their space-bars along with the music beats. There are also phrases or sentences intertwined, that players have to input correctly before pressing space-bar. With these two objectives carried out, Slimies can then jump on the newly stacked pillar block!\nWhat’s more, there are two additional single-player modes, where players strive for stacking the tallest pillar in High-score Mode, as well as surviving as long as possible, in Survival Mode, before the camera catches up!\nWe set out in making the game casually improve players’ typing proficiency. It could be cheerful-lighthearted, or mechanically intensive. We have designed an additional beat-mapper program to translate music pieces into custom track information used by the game, in json format. Which means players can create authentic mappings with their favorite music!\nTeam information\nProject leader: Susanto Christopher Alvin, BEng(CompSc)\nTeam member(s): Wan Ho Cheung Rico; Wong Lok Hei Brian; Chau Wing Yu Pinky\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Final-Christopher-Alvin-Susanto-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid21/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/mainmenu-Christopher-Alvin-SUSANTO.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid21/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/JoinRoom-Christopher-Alvin-SUSANTO.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid21/",
+        "position": 2
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/waitplayer-Christopher-Alvin-SUSANTO.gif",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid21/",
+        "position": 3
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/gameplay1-Christopher-Alvin-SUSANTO.gif",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid21/",
+        "position": 4
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/endgame-Christopher-Alvin-SUSANTO.gif",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid21/",
+        "position": 5
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:07.576075+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/projectid29/",
+    "title": "Dumb ways to fail",
+    "text": "Dumb ways to fail\nCourse project, COMP3329 Computer Game Design and Programming​\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nckchui\nApril 26, 2019\n6:50 pm\nProject information\nProject descriptions\nDumb ways to fail is a game which simulates a typical student experience, which one’s lack of attention to different aspects of a course (attendance, coursework, exam etc) could lead to failing a course. Within the game, players will go through a series of mini games, in which they will be given short instruction and react quickly to complete that game successfully. After players have played the game for several times, they will become better at the game and could achieve higher grade at the end of the game. Random bonus will be given to players to create extra excitement.\nTeam information\nProject leader: Cheung Hoi Ching, BBA(IS)\nTeam member(s): Chan Hiu Chun, BBA(IS); Lai Chun Wing, BBA(IS); Lin Wai Kwan, BBA(IS); Lau Yee Pan, BBA(IS); Yuen Chung Hei, BBA(IS)\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Innoshow-poster-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid29/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Dumb-Thumbnail-Hoi-Ching-CHEUNG.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/projectid29/",
+        "position": 1
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:08.286693+00:00"
+  },
+  {
+    "url": "https://innowings.engg.hku.hk/open-ocean-robot-platform/",
+    "title": "Open ocean robot platform",
+    "text": "Open ocean robot platform\nExperiential learning project hosted in the Department of Electrical and Electronic Engineering\nckchui\nApril 26, 2019\n7:05 pm\nProject information\nProject descriptions\nIt is estimated that 1.15 to 2.41 million tonnes of plastic are entering the ocean each year from rivers. More than half of this plastic is less dense than the water, meaning that it will not sink once it encounters the sea. The stronger, more buoyant plastics show resiliency in the marine environment, allowing them to be transported over extended distances.\nHowever, we believe that we can help reduce the amount of plastic that reaches the open ocean.\nWe started Clearbots to make it affordable and viable for local communities to clear their water of dumped plastic waste.\nTeam information\nProject leader: Sidhant Gupta, BEng CE\nTeam member(s): Utkarsh Goyal, BEng CS; Abbas Alvi, BEng ME; Rezaul Karim, BEng ME\nProject poster\nProject video\nProject images\nMedia links\nProject website\nAwards\nWinner of the Microsoft Innovation Prize @ The 1st Engineering InnoShow\nThis project team was selected for the Microsoft Innovation Prize at the 1st Engineering InnoShow.\nThis team has received a gift (Microsoft Surface pro) from Microsoft.",
+    "images": [
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/Poster.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/open-ocean-robot-platform/",
+        "position": 0
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/capture4-SIDHANT-GUPTA.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/open-ocean-robot-platform/",
+        "position": 1
+      },
+      {
+        "src": "https://innowings.engg.hku.hk/wp-content/uploads/2019/04/winner-Microsoft-innovation-prize.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innowings.engg.hku.hk/open-ocean-robot-platform/",
+        "position": 2
+      }
+    ],
+    "site": "innowings.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:08.912507+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/robomaster1/",
+    "title": "RoboMaster@1st Inno Show",
+    "text": "RoboMaster@1st Inno Show\nSupervisor:\nDr. Kenneth Wong\n(Department of Computer Science)\nHost department:\nDepartment of Computer Science\nProject background\nIn this project, students will learn AI and robot related technical disciplines such as machine vision, embedded system design, mechanical control, through designing and building intelligent robots. Students will also form a team representing HKU to participate in the RoboMaster Robotics Competition hosted by DJI and compete against other teams from all over the world.\nProject details and process\nIn September 2018, the HKU RoboMaster Team started their promotion and recruitment of new members. Training sessions for the CS, EE and ME subgroups were organized, and eventually 36 members were selected to join the Team. Starting from November 2018, the Team started designing their robots according to the rules of the RoboMaster Robotics Competition, and they completed their technical proposal in February 2019. Between March and June 2019, the EE and ME subgroups of the Team started building the hardware of their robots, whereas the CS subgroup worked on the control software and machine vision algorithm for auto-targeting. In April 2019, the Team joined the trial match held in Shenzhen with 5 completed robots. Besides, the Team participated in the InnoShow in April and showcased 3 of their robots to the public. By the end of July 2019, the Team successfully built 7 robots, including 1 Hero robot, 1 Engineer robot, 3 Standard Robot, 1 Sentry robot and 1 Aerial robot, and participated in the RoboMaster 2019 International Region Competition held in Shenzhen in August 2019.\nProject result\nIn April 2019, the Team joined the trial match held in Shenzhen with 5 completed robots. Besides, the Team participated in the InnoShow in April and showcased 3 of their robots to the public. By the end of July 2019, the Team successfully built 7 robots according to the rules of RoboMaster Robotics Competition. They participated in the RoboMaster 2019 International Region Competition held in Shenzhen in August 2019, and got the 3rd Prize and the Outstanding Aesthetic Design Award. Any Kong (experiential learning officer) got the Outstanding Advisor Award.\nStudent learning and achievements\nThrough this project, students acquired knowledge in robot related technical disciplines, including machine vision, embedded system design, mechanical control, etc. They successfully applied their engineering knowledge to design and build intelligent robots for specific purposes. Besides, they were able to acquire self-learning and problem solving skills, which enable them to overcome unforeseen problems, make informed decisions and work under constraints of limited time, human and financial resources. Through discussions and collaboration between peers from different disciplines, students learnt how to communicate with peers with different backgrounds effectively, and how to be a good team player.\nFuture plan\nThe HKU RoboMaster Team will start recruiting new members again in Sep 2019. 10 of the existing members will stay in the Team to pass on their knowledge and provide training to the new team members. With their experience gained in the past year, we hope that the Team can achieve better performance in the RoboMaster 2020 competition.\nRobomaster 2020\nSharing\nProject supervisor\nDr. Kenneth Wong\nAssociate professor\nDepartment of Computer Science\nIn the past year, the team members had worked very hard to complete the design and building of their robots. Due to the limitation of available space, the Team had experienced great difficulties in test driving their robots. In particular, since drone flying is not allowed within the campus, the Team had to ship their Aerial robot to Shenzhen for tuning and test flying. This greatly limited their training and testing time with the Aerial robot. Despite all the difficulties they encountered, the Team had successfully built 7 robots and joined the competition with a full team of robots. With their technical knowledge and experience acquired this year, I am sure they can do even better in the coming competition in 2020.\nWHAT IS THE TOPIC OF THE PROJECT ?\nDevelop robots to participate in the RoboMaster 2019 Robotics Competition (https://www.robomaster.com) hosted by DJI.\nWHAT DO STUDENTS DO IN THE PROJECT?\nStudents will design and develop different types of robots that can launch projectiles in a complex battlefield. The robots are required to cooperate with each other and work together to attack the base of the opponent and at the same time protect their own base. Students will form a team to participate in the RoboMaster 2019 Robotics Competition and compete against other teams from all over the world using their self-build robots.\nWHAT WILL STUDENTS LEARN?\nStudents will learn robot related technical disciplines including machine vision, embedded system design, mechanical control, inertial navigation, human-computer interaction, etc. They will also learn how to become a good team player.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nStudents will have hands-on experience in building robots that requires comprehensive application of their engineering knowledge. They will be able to acquire self-learning skill and problem solving skill, and value the importance of teamwork.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nStudents are required to build their robots from scratch. They need to self-learn all the robot related technical disciplines. Students from the Mechanical Engineering, Electrical Engineering, and Computer Science sub-groups need to understand the design constraints of the other sub-groups and cooperate with each other to work out feasible solutions.\nWHAT MAKES A GOOD PROJECT?\nA good project should allow students to apply their knowledge as well as their creativity, and provide opportunity for them to acquire new knowledge as well as reinforce previously acquired knowledge.\n“I was very intrigued by the opportunity of making robots. Gaining hands on experience is great, but interacting at a deeper level with geeks is perhaps even more enriching :-D”\nJoyce X. X. Wang, project manager, Robomaster 2019\n“I joined this team as a freshman uncertain and confused. But now, I feel grateful of this choice, because in here, not only did I acquire precious experience of robotics, but also make treasured friendship with my teammates. I’d say this team, or this competition inspires me of some of my future direction that I want to keep pursuing.”\nLeo Y. C. Liu, group leader of the fighter group, Robomaster 2019\n“In 2018-2019 RoboMaster, I have learned a lot on programming matters for examples real-time operating system, etc. and I meet wonderful people in RoboMaster team which help me learn better in engine course in year 1. Also, RoboMaster provides me a chance that I could apply my learning in real-life problems.”\nMacro Z. Y. Mak, software developer, Robomaster 2019\n“I feel like a part of a warm family though I involved in this team in the first semester. In 2019 RoboMaster, my core role transfer from technology development to management. My communication and presentation skills developed.”\nZ. Q. Huang, captain during the year of 2018, Robomaster 2018\n“In 18/19 RoboMaster, my engineering skills and innovative thinking have strengthened a lot. This competition is exactly a reality video game. Any crazy ideas can become true, such as car moving horizontal and the mushroom in Mario Cart.”\nHostin Kuo, hardware developer, Robomaster 2019\n“During my time in RoboMaster, I have learned a lot on not only technical skills on how to develop a robot but also skills on how to interact with people. The most satisfying experience of all is to implement to the power management system to allow the car to get extra power when needed for slope climbing or acceleration.”\nFeng Yip, hardware developer\n“The competition gave an opportunity to have a glimpse of the industry-level developing procedure and a chance to get involved in real software development. In the RoboMaster, for the first time, I got to know about the function pointers and practiced OOP skills in language C. Also, for the first time I started to utilize the Git to manage a huge project with tens of thousands of codes. The experience in the team is somehow like an internship but with more motivations and a stronger sense of achievement afterward. I do enjoy the year and cherish the knowledge and practice the team has offered me.”\nDavid Y. H. Liu, software developer\n“It is a year of growth for me both academically and practically. Such competition exposes my vulnerability when facing pressure and give me a chance to adopt a more positive attitude toward it.”\nEric S. R. Chen, group leader of the aerial robot group, Robomaster 2019\n“Despite my major in Computer Engineering, I still have been able to have a taste of the mechanical designing thanks to the team. I have learned how to use Solidworks to construct models, how to simulate the motions and how to assemble components together. It broadens my horizons and offers me more knowledge than what I can gain within the classrooms.”\nRex J. L. Li, mechanical designer, Robomaster 2019\n“In the year, I mainly focus on the computer vision area. The experience greatly enhanced my abilities in coding and algorithm analyzing. It motivates me to touch some of the frontiers of scientific research. I am convinced that the team has enabled me for the upcoming challenges in the future study.”\nB. R. Dong, group leader of computer vision group, Robomaster 2019\n“The biggest takeaway here is you will never be able to experience anything like Robomaster elsewhere. It’s exhilarating complexity and intensity kept us on our feet throughout the season. I appreciate what we have achieved because of how much we have grown together as a team.”\nSean Chok, mechanical designer, Robomaster 2019\n“In this year’s RoboMaster career, I learned some of the common knowledge of mechanical design, mastered assembly skills, for future participation in the robot project has accumulated considerable experience, training engineers. During the year, especially during the two trips to Shenzhen, I had an updated understanding of how the team worked together.”\nEdwin, mechanical designer, Robomaster 2019\nPrevious image\nNext image\nProject images\nMedia links\nInstagram\nEmail\nhkurobomaster@gmail.com\nLearn more about HKU RoboMaster\nSIG - HKU RoboMaster\nStudent-initiated Courses offered by HKU RoboMaster 2022-2023\nHKU RoboMaster 2021\nHKU RoboMaster 2020\nHKU RoboMaster 2019\nLearn more about RoboMaster @ previous Inno Shows\nRoboMaster @ 6th Inno Show\nRoboMaster @ 5th Inno Show\nRoboMaster @ 3rd Inno Show\nRoboMaster @ 2nd Inno Show\nSponsors\nWe would like to extend our sincere gratitude and appreciation for all of the support we received from our donors, which include:\nLEARN MORE ABOUT THE 1ST ENGINEERING INNO SHOW 🙂",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-350-1024x683.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/08/Robomaster-6.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/kenneth-wong.jpg",
+        "alt": "",
+        "caption": "Project supervisor Dr. Kenneth Wong Associate professor Department of Computer Science",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-571-1024x683.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-46.jpg",
+        "alt": "robomaster-46",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 4
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-45.jpg",
+        "alt": "robomaster-45",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 5
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-44.jpg",
+        "alt": "robomaster-44",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 6
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-43.jpg",
+        "alt": "robomaster-43",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 7
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-42.jpg",
+        "alt": "robomaster-42",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 8
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-41.jpg",
+        "alt": "robomaster-41",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 9
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-40.jpg",
+        "alt": "robomaster-40",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 10
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-39.jpg",
+        "alt": "robomaster-39",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 11
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-38.jpg",
+        "alt": "robomaster-38",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 12
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-37.jpg",
+        "alt": "robomaster-37",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 13
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-36.jpg",
+        "alt": "robomaster-36",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 14
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-35.jpg",
+        "alt": "robomaster-35",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 15
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-34.jpg",
+        "alt": "robomaster-34",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 16
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-33.jpg",
+        "alt": "robomaster-33",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 17
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-32.jpg",
+        "alt": "robomaster-32",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 18
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-31.jpg",
+        "alt": "robomaster-31",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 19
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-30.jpg",
+        "alt": "robomaster-30",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 20
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-29.jpg",
+        "alt": "robomaster-29",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 21
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-28.jpg",
+        "alt": "robomaster-28",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 22
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-27.jpg",
+        "alt": "robomaster-27",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 23
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-26.jpg",
+        "alt": "robomaster-26",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 24
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-25.jpg",
+        "alt": "robomaster-25",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 25
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-24.jpg",
+        "alt": "robomaster-24",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 26
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-23.jpg",
+        "alt": "robomaster-23",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 27
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-22.jpg",
+        "alt": "Robomaster 2019 hosted in the Computer Science department, supervised by Dr. Kenneth Wong (CS)",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 28
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-21.jpg",
+        "alt": "robomaster-21",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 29
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-20.jpg",
+        "alt": "Robomaster 2019 hosted in the Computer Science department, supervised by Dr. Kenneth Wong (CS)",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 30
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-18.jpg",
+        "alt": "robomaster-18",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 31
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-17.jpg",
+        "alt": "robomaster-17",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 32
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-16.jpg",
+        "alt": "robomaster-16",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 33
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-15.jpg",
+        "alt": "robomaster-15",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 34
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-14.jpg",
+        "alt": "robomaster-14",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 35
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-13.jpg",
+        "alt": "robomaster-13",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 36
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-12.jpg",
+        "alt": "robomaster-12",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 37
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-11.jpg",
+        "alt": "robomaster-11",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 38
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-10.jpg",
+        "alt": "robomaster-10",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 39
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-9.jpg",
+        "alt": "robomaster-9",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 40
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-8.jpg",
+        "alt": "robomaster-8",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 41
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-7.jpg",
+        "alt": "robomaster-7",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 42
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-6.jpg",
+        "alt": "robomaster-6",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 43
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-5.jpg",
+        "alt": "Robomaster 2019 hosted in the Computer Science department, supervised by Dr. Kenneth Wong (CS)",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 44
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-4.jpg",
+        "alt": "robomaster-4",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 45
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-3.jpg",
+        "alt": "robomaster-3",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 46
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-2.jpg",
+        "alt": "Robomaster 2019 hosted in the Computer Science department, supervised by Dr. Kenneth Wong (CS)",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 47
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/01/robomaster-1.jpg",
+        "alt": "robomaster-1",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 48
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-261.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 49
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-249.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 50
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-926.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 51
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-886.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 52
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-442.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 53
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-657.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 54
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-754.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 55
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-782.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 56
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-837.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 57
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-404.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 58
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-562.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 59
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-571.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 60
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-350.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 61
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Robomaster2019/photo-451.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 62
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/InnoWing-Logo.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 73
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/HKUEAA.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/robomaster1/",
+        "position": 74
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:09.451400+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/arduinobasic/",
+    "title": "Arduino basic workshop – Robot Eye",
+    "text": "Arduino basic workshop – Robot Eye\nkit\nFebruary 21, 2019\n1:43 pm\nBasic Level\nInstall Arduino IDE\nProgram the Arduino\nWiring\nPut the 3D printing model together\nClean up the 3D model\nEstimate time for this module: max 2 hrs (exclude 3D printing)\nReference, https://www.thingiverse.com/thing:319978\nParagraph\nAdvance Level (Computer control)\nUse the computer to move the eye\nBasic communication between computer and the hardware peripheral\nExpert Level (IOT)\nApp will receive notification from the Eye\nSetup an account for IOT\nCreate Trigger event from the eye through the computer\nPlease email ak51@hku.hk if you are interested in making an robot eye. The total cost is about $70 HKD",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/02/IMG_7946-1024x768.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/arduinobasic/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/02/IMG_7936-1024x768.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/arduinobasic/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/02/RobotEye3.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/arduinobasic/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/02/IFTTT.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/arduinobasic/",
+        "position": 4
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:09.966742+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/posture-correction/",
+    "title": "Posture correction phone application",
+    "text": "Posture correction phone application\nFinal Year Project,\nDepartment of Electrical and Electronic Engineering\nProject supervisor: Dr Hayden So (\nDepartment of Electrical and Electronic Engineering)\nkit\nApril 17, 2019\n4:38 pm\nThe fitness industry has experienced rapid growth in the past decade as millennials begin to realize the importance of staying fit and healthy. Strength building exercises are a primary component of all fitness routines but can be ineffective and dangerous if done incorrectly. As fitness trainers prove to be too expensive, we introduce TrainSmart. A phone application acting as an on the go virtual trainer, which not only assists users through their workout but also identifies mistakes in form and provides personalized feedback. TrainSmart uses a pose estimation library and a customized movement analysis algorithm to correctly count repetitions and spot errors in the user’s form. TrainSmart also consists of an automated phone stand, which tracks the user across the gym when he/she is performing the workout. The stand consists of an Arduino coupled together with a servo motor which communicates with the phone application via a Bluetooth connection.\nProject leader: Yashvardhan Nevatia, BEng (Computer Engineering)\nTeam member(s): Vishnu Chopra, BEng (Computer Engineering)\nProject poster\nProject video\nProject images\nMedia links\nWebsite",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/TS_03-yashvardhan-nevatia.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/posture-correction/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/TS_04-yashvardhan-nevatia.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/posture-correction/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/TS_02-yashvardhan-nevatia.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/posture-correction/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/TS__01-yashvardhan-nevatia.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/posture-correction/",
+        "position": 3
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:10.963140+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/duckietown2019/",
+    "title": "Duckietown AI-Driving",
+    "text": "Duckietown AI-Driving\nHost department:\nDepartment of Computer Science\nProject supervisor:\nDr. Y.K. Choi\n(Department of Computer Science)\nProject background\nDuckietown Project\nis an interdisciplinary robotics project that aims to democratise A.I. and robotics research. Through this project, students will gain tangible experience in a fun and playful way in prototyping self-driving robots and applying A.I. to the physical education platform developed by MIT for experiential learning.\nA project highlight is the students’ participation in the\nA.I. Driving Olympics (AI-DO)\ninternational contests, with the live final events, co-locate with NIPS and ICRA, the prestigious conferences in A.I. and robotics. Through the preparation of the competitions for over half a year, students will undergo intensive training, foster peer collaborations, solidify their knowledge and demonstrate a sustainable learning outcome. Students will compete in employing their A.I. models to perform autonomous real-life tasks (e.g. lane following, point-to-point navigation) on a physical platform. The trips to the live competitions of AI-DO allow students to meet peer contestants of common interest from other academic institutions (e.g. MIT, Tsinghua University, Georgia Tech), and at the same time to conduct intellectual and experience exchange on A.I. and robotics with students and researchers around the globe.\nProject leader:\nNg Ka Lok, BEng(ME) and\nWoo Chung Yu (Angel), BEng(CompSc)\nTeam member(s): Yip Tsz Fung, BEng(ME); Ching King Him, BEng(CompSc); Li Jason Chun Lok, BEng(EE); Chen Wu Juang, BEng(CompSc)\nThis project is in collaboration with Mr. Brian Tang, Executive Director, LITE Lab@HKU.\nProject details and result\nOver both semesters, the team held regular meetings and had intensive training for the preparation of the AI-DO. They have showcased their prototype robotics vehicles and set up the town at the Engineering Innoshow 2019, which marked an important step in reaching out to the HKU community.\nThe team was selected as the 2nd runner-up in the lane-following challenge in AI-DO at the International Conference on Robotics and Automation (ICRA)\nPrevious image\nNext image\nStudents learnt to build self-driving car robots and a miniature physical platform for navigation. They also gain experience in being a team player via effective work allocation and communication between team members of different expertise through solving real-life problems. They effective acquire the skills to plan, design and implement robotic systems, A.I. algorithms and software capable of operating in complex and interactive environments.\nOur debut at AI-DO will mark the launch of the HKU Duckietown Project team – our vision is to establish the team as an inclusive community for HKU students interested in self-driving cars to gain practical project experience, in the meantime to promote autonomy education and research.\nProject poster\nAward\nSecond runner-up in AI Driving Olympics at ICRA 2019\nThis article appears in the\nnews\nof the Faculty of Engineering, the University of Hong Kong\nAmong 192 competitors from all over the world and a majority of research teams, “HKU DuckieTown Team” formed by six engineering undergraduates seized the 2nd runner-up in the lane-following challenge of the “AI Driving Olympics” held by the Duckietown Foundation at the International Conference on Robotics and Automation (ICRA) in Montreal, Canada on May 20-22, 2019.\nThe team was supervised by Dr Loretta Choi of the Department of Computer Science, comprised of four of her students, Woo Chung-yu, Ching King-him, Chen Wu-juang and Lo Yat-long and two Mechanical Engineering students Ng Ka-lok and Yip Tsz-fung. The “AI Driving Olympics” was hosted by the Duckietown Foundation where teams had to score the best running in terms of travel distance and survival time of a robotic vehicle (Duckiebot) in a miniature town (Duckietown) that replicates an autonomous driving environment. “HKU DuckieTown Team” trained and deployed an imitation learning algorithm in the Duckiebots that enables them to navigate with inputs from cameras.\nSharing\nDr. Loretta Y.K. Choi\n(Project supervisor, Department of Computer Science)\nThe students have been working really hard on this project and they demonstrated great teamwork and fighting spirit. It has been an incredibly rewarding experience to work with our undergraduate Engineering students who are passionate and self-motivated in delving into the evolving AI technologies and applications, which involve a lot of exploration and experimentation. The competition provides an invaluable opportunity for students to be able to experiment with their ideas in the context of an impactful auto-driving problem, and actually see how their solution works on a playful physical miniature replica of a driving environment.\nAngel Woo (BEng(CompSc), II)\nAs my very first time travelling overseas for attending an international conference, I would proudly say that this experience was a unique, irreplaceable one. I was once a “software” person who was uninterested in hardware and felt that I could stay within my comfort zone. However, this project has intrigued me to learn the fun part about hardware, and to experience how software and hardware can be integrated with reality. Not only was it an experiential learning project that allowed me to put my knowledge in application, but it also connected me with friends of expertise and granted me the courage to try.\nKelvin Ng (BEng(ME), IV)\nDuckietown project is a comprehensive learning experience for me. Throughout the preparation for the AI Driving Olympics held at ICRA 2019 in Montreal, not only did we gain practical experience in hands-on technique for driverless car project, including networking, setting up robotics workflow, machine learning model tuning and so on, we also had a better taste of applying imitation learning to typical control engineering challenges in mechanical engineering discipline. I am glad to meet people from a different engineering background to tackle the common robotics problem and grateful for the opportunity to work with computer science students who provided valuable insights to engineering challenge from another perspective.\nEdmond Yip (BEng(ME), IV)\nDuckietown has been a competition and education programme about self-driving and has been held by prestigious institutions. This competition deepened my understanding of self-driving and artificial intelligence. It is a precious experience to witness the application of computer intelligence in the real world.\nThe visit to ICRA has offered me a preview of the global robotics industry and academia. The field has been prospering and offered our society many amazing tech improvements. In the conference, there were other competitions, talks by researchers revealing the latest trends in the field of automation and robotics and demonstrations by industry leaders and academia. The visit provoked my passion for automation and robotics.\nJonathan Ching (BEng(CS), V)\nDuckietown competition has given our team the perfect experience to get first-hand knowledge in the self-driving industry. Through this experience, I have come to appreciate the complexity of the industry but the surprisingly clear and organized engineering efforts done by the brilliant engineers.\nAs a team, we have explored a lot of potential methods in the learning algorithm. With the support of the HKU Gallant Ho Faculty of Engineering and the Department of Computer Science, we were enabled to test out various types of tracks and scenarios so that our bots can run well in the world. Thanks to our brilliant teammate, we trained the model in simulators, and test runs it on the track.\nRichie Lo (BEng(CS), VI)\nHaving been mostly working with simulators in the past, this was indubitably rewarding to apply methods of artificial intelligence to a physical robotic cart. It once again reminded us how far the AI community is from realizing Simulation to Reality (Sim2Real) as what is learned in a simulator is difficult to transfer to the actual environment. As for the conference, It was an incredible experience to interact with the international community at ICRA. It offered us the opportunity to exchange ideas and thoughts with people from all over the world. Specifically, as someone who is specialized in reinforcement learning, I have acquired refreshing perspectives from the robotics community in terms of their views on including learning components in robots for control.\nMedia links\nWebsite\nSponsors\nWe would like to extend our sincere gratitude and appreciation for all of the support we received from our donors, which include:",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Duckietown2019/photo-5.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/duckietown2019/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Duckietown2019/photo-1-1024x768.jpg",
+        "alt": "photo (1)",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/duckietown2019/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/Duckietown2019/photo-3-1024x768.jpg",
+        "alt": "photo (3)",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/duckietown2019/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/duckiet_poster_NEW_CMYK-Angel-Woo-2-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/duckietown2019/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/AI-Driving-Olympics_e.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/duckietown2019/",
+        "position": 4
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/InnoWing-Logo.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/duckietown2019/",
+        "position": 5
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/HKUEAA.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/duckietown2019/",
+        "position": 6
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:11.965539+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/projectid3/",
+    "title": "A geography-based P2P overlay network for fast and robust blockchain systems",
+    "text": "A geography-based P2P overlay network for fast and robust blockchain systems\nFinal Year Project, Department of Computer Science\nProject supervisor: Dr. Cui, Heming. (Department of Computer Science)\nkit\nApril 18, 2019\n4:56 pm\nProject FRing focuses on improving the broadcast efficiency of blockchain systems. It includes a novel peer-to-peer overlay network protocol that improves communication efficiency and security among peers, and an implementation of the protocol in C++.\nProject leader: Haoran Qiu, BEng(CompSc)\nTeam member(s): Tao Ji, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/poster_high-Haoran-Qiu-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid3/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/fig-Haoran-Qiu.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid3/",
+        "position": 1
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:12.762826+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/booknotes/",
+    "title": "BookNotes",
+    "text": "BookNotes\nCourse project, COMP3330 Interactive Mobile Application Design and Programming\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nkit\nApril 23, 2019\n2:31 pm\nProject information\nProject descriptions\nTaking notes for books in an organized manner has always been a hard work. Not only will the notes be lost, but they are also hard to search with. Sometimes you can’t even write on a borrowed book. BookNotes utilizes rectangular detection to allow users to scan a page of the book and take notes on the image easily. Users can also type additional notes and add tags to facilitate searching. Users can organise the notes according to the book they belong to by simply scanning the barcode of the book, then the details of the books are filled in automatically.\nTeam information\nProject leader: Kwok Cheuk Lum, BEng(CompSc)\nTeam member(s): Cheung Yin Ching, BEng(CompEng); Kwong Brian, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website\nAwards\nThe best project award - COMP3330 Interactive Mobile Application Design and Programmes @ The 1st Engineering InnoShow\nThis project team was selected for the best project award – COMP3330 Interactive Mobile Application Design and Programmes at the 1st Engineering InnoShow.",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/innoshow_final-Cheuk-Lum-KWOK.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/booknotes/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/3-Cheuk-Lum-KWOK.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/booknotes/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/4-Cheuk-Lum-KWOK.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/booknotes/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/5-Cheuk-Lum-KWOK.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/booknotes/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/6-Cheuk-Lum-KWOK.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/booknotes/",
+        "position": 4
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/7-Cheuk-Lum-KWOK.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/booknotes/",
+        "position": 5
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/winner-best-project-award-COMP3330.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/booknotes/",
+        "position": 6
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:13.615653+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/looplt/",
+    "title": "LoopIt",
+    "text": "LoopIt\nCourse project, COMP3330 Interactive Mobile Application Design and Programming\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nkit\nApril 24, 2019\n5:27 pm\nProject information\nProject descriptions\nLoopIt is an application that emulates the experience of using a loop station.\nA loop station is a device that allows its user to sample series of short audio recordings generated from an audio input device, where the audio recordings are looped back continuously. It is generally used by musicians to gradually build layers of sounds and music on their own until all the recordings combined sound comparable to a complete band or musical piece.\nCurrently, such technology in its physical form is very expensive (~4000HKD), hence inaccessible to most. In light of this, LoopIt aims to make such technology accessible to the casual user.\nTeam information\nProject leader: Adarsh Rai, BEng(CompSc)\nTeam member(s): Hyunse Yoon,\nBEng(CompSc\n); Vishal Venkatraman, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website\nAwards\nWinner of the Dean’s Fund Award @ The 1st Engineering InnoShow\nThis project team was selected for the Dean’s fund award at the 1st Engineering InnoShow.\nThis team has received HK$10,000 sponsorship to participate in external competitions or incubation/ entrepreneurship/ startup programmes.",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/7.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/looplt/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/1-Andrew-Kulung-Rai.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/looplt/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/2-Andrew-Kulung-Rai.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/looplt/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/3-Andrew-Kulung-Rai.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/looplt/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/winner-dean-award.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/looplt/",
+        "position": 4
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:14.553981+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/projectid6/",
+    "title": "Snowman’s adventure",
+    "text": "Snowman’s adventure\nCourse project, COMP3329 Computer Game Design and Programming\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nkit\nApril 25, 2019\n11:21 am\nProject information\nProject descriptions\nSnowman’s adventure is a Third Person Shooting game. It tells a story of a snowman, who is losing his home due to climate change. Encouraged by Santa, snowman starts his journey to face factories that cause pollution. Expect resistance, player. For those who own the factories care not about your home, but money.\nIn this game, player will follow story-driven objectives, which will guide snowman in his adventure. Player can shoot snowballs to defeat the enemies. In the progress, player will level up and gain power-ups.\nThis game is created as an inspiration to reality. The effects of climate change are seen by everyone, and yet some still deny its existence, while many ignored it. Actions weigh more than words. But what much could a student do when even some of the world leaders decline actions? I can only do my part to spread the messages in my game to remind of climate change.\nTeam information\nProject leader: Cheung Man Hin, BEng(CompSc)\nTeam member(s):\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/COMP3329_InnoShow_Poster-Man-Hin-CHEUNG-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid6/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-22-at-8.57.48-PM-Man-Hin-CHEUNG.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid6/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-22-at-8.58.17-PM-Man-Hin-CHEUNG-5.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid6/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-22-at-8.58.37-PM-Man-Hin-CHEUNG4.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid6/",
+        "position": 3
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:15.370136+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/mr-ready-aircraft/",
+    "title": "Mixed Reality (MR) ready aircraft",
+    "text": "Mixed Reality (MR) ready aircraft\nHost department:\nDepartment of Computer Science\nProject supervisor:\nDr. Y.K. Choi\n(Department of Computer Science)\nProject background\nStudent team joined Fly Your Idea Competition organized by Airbus, in the sub-category of Mixed Reality. Structured in 3 rounds of evaluations, the competition exposes students to the challenges and opportunities of aerospace engineering, along with the rich and diverse background of Airbus. The student has outranked hundreds of teams and worked on building a prototype and business model for bringing the state-of-the-art Mixed Reality to customers.\nAirlines have started removing IFE monitors to promote fuel economy and give way to handheld devices while losing traction and loyalty from passengers. Meanwhile, a US$300-million market of MR technology has just propelled recently and will soon become a new standard of entertainment. Under this narrative, MR ready aircraft opens up a huge variety of entertainment options to passengers and convincing business opportunities to airlines. Yet, without a standardized platform, MR developers are less interested in projects around aircraft, a subject with tedious regulations and tremendous know-how of engineering.\nSKYLINER is a middleware designed for MR developers to create and publish their work on board, where passengers and crews can benefit from limitless creations. The platform includes components that are crucial to developers, like spatial understanding of the cabin environment, and compliance to regulations. SKYLINER would soften the grind during the development stage and take care of the needs of partners in MR industry.\nMR ready aircraft and SKYLINER mean an opportunity of partnership with IT giants, reinforce the pledge of offering premium service and keep AIRBUS at the helm in the market.\nTeam information\nProject leader: Kelvin Ng, BEng(ME)\nTeam member(s): Angel Woo, BEng(CompSc); Edmond Yip, BEng(ME); Jonathan Ching, BEng(CompSc)\nProject details and process\nSince September 2018, the team had held regular weekly meetings with the project supervisor to brainstorm ideas for the 1st round and draft a proposal for the competition. Proceeding to the 2nd round, students further validated their Mixed Reality (MR) proposal by experimenting with different MR products in the market and reached out to end-users to learn about their experiences.\nThe team is one of the top 51 teams short-listed to the 2nd round of the competition. The team was also selected for the\ntop 10 most creative video\n.\nStudents learnt to apply and demonstrate knowledge and skills in MR as well as aviation applications. Throughout the preparation process of the competition, they acquired the skill to plan, design and implement mixed reality prototypes with appropriate software and hardware. They also gained precious experience in teamwork between members of different expertise.\nThe MR headsets used by the team will be shared with other undergraduate students for more experiments on MR and its applications. The report and video produced by the team would serve as a valuable reference for students who are interested in joining the Airbus Fly Your Ideas competition again in the near future. This competition experience would unlock opportunities for the Computer Science department to introduce courses related to Extended Reality (XR) technologies.\nProject poster\nSharing\nDr. Loretta Y.K. Choi\n(Project supervisor, Department of Computer Science)\nThe students have demonstrated great team spirit and their eager to learn about new technologies. It is great to see them applying knowledge learnt in school to different aspects of the project. Students also got to visit local XR companies and meet with experts in the field as well as the Airbus engineering team. Although they didn’t make past the second round, I believe they can make great use of their experience gained in this project and share them along with other students.\nAngel Woo (BEng(CompSc), II)\nTaking part in the Airbus Fly Your Ideas Competition gave me the chance to understand how technology could empower the aviation industry. By communicating with our mentor working at Airbus and our supervisor Dr Loretta Choi, our team learnt a lot about Extended Reality (XR) technologies and was excited to even get the equipment for prototyping our proposal. I could still recall how we had meetings a day in and day out just a week before the deadline in order to refine our infographics and video. I felt grateful to have encountered a great team and supervisor. This competition experience was super intensive, but equally rewarding.\nKelvin Ng (BEng(ME), IV)\nBefore participating in the Airbus Fly Your Ideas Competition, I had finished an engineering internship in an airline and studied in the United States for an exchange program specialized in aeronautical engineering. Immersing myself in the aviation industry, I understand some pain points of the industry and believe that the solutions for all those challenges lie in creativity from multi-discipline. The competition rendered me an opportunity to explore the possibility of improvement in the daily operation of the aviation field offered by mixed reality and its limitation. I felt honoured to work alongside with computer science students, aviation and mixed reality expert to work on a proposed solution for unleashing the power of mixed reality and our imagination.\nEdmond Yip (BEng(ME), IV)\nAirbus’ Fly Your Idea is a competition about developing a solution for problems facing the aviation industry and has been supported by many prestigious institutions. This competition deepened my understanding of aviation technology and industry trends. It is a precious experience to develop ideas, prototype, conduct research and pitch the ideas on the Internet.\nJonathan Ching (BEng(CompSc), V)\nAirbus Fly your Idea competition has given our team the perfect experience to get first-hand knowledge in the aerospace industry. Through this experience, I have come to appreciate the complexity of the industry but the surprisingly clear and organized engineering efforts done by the brilliant engineers.\nAs a team, we have explored a lot of potential application of Augmented Reality headsets in the setting of aircraft. With the support of vis-lab, we were enabled to test out various types of googles that are state of the art.\nSponsors\nWe would like to extend our sincere gratitude and appreciation for all of the support we received from our donors, which include:\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/airbus_poster_CMYK-Angel-Woo-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/mr-ready-aircraft/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/InnoWing-Logo.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/mr-ready-aircraft/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/HKUEAA.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/mr-ready-aircraft/",
+        "position": 2
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:16.335312+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/toggle/",
+    "title": "Toggle",
+    "text": "Toggle\nExperiential learning project hosted in the\nDepartment of Electrical and Electronic Engineering\nProject supervisor: Dr. K. S. Lui (Department of Electrical and Electronic Engineering)\nkit\nApril 25, 2019\n1:31 pm\nProject information\nProject descriptions\nToggle is an adhesive wall switch robot that turns normal wall switch smart. It aims to solve low adoption of smart home upgrade led by cumbersome installation. Connected by Wi-Fi and runs on MQTT Pub/Sub Protocol, Toggle can Push/Pull and monitor the wall switch mechanically with Wi-Fi connected sensor or even outdoor using the mobile app. Its cost and size is minimised for commercialisation.\nTeam information\nProject leader: Shoyu Kaneko(BEng in Computer Engineering)\nTeam member(s): Hanson Chan\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/POSTER_INNOSHOW-Shoyu-Kaneko-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/toggle/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/IMG-20190414-WA0012-03-Shoyu-Kaneko-1.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/toggle/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/IMG_20190423_080532-Shoyu-Kaneko.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/toggle/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/IMG_20190423_061113-Shoyu-Kaneko.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/toggle/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/IMG_20190423_080423-Shoyu-Kaneko.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/toggle/",
+        "position": 4
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot_2019-04-23-08-06-59-926_com.tuya_.smart-Shoyu-Kaneko.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/toggle/",
+        "position": 5
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:17.197416+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/projectid9/",
+    "title": "Design secure digital wallets",
+    "text": "Design secure digital wallets\nFinal Year Project\nfrom Department of Computer Science\nProject supervisor: Dr. J.T.H. Yuen\nkit\nApril 25, 2019\n2:16 pm\nProject information\nProject descriptions\nThis aim of the project is to design a secure crypto wallet. The application is a web application and it has incorporated 3 security features. The features are Two factor authentication, Hierarchical deterministic wallet and Multisignature technology.\nTeam information\nProject leader: Aditya Sethi, BEng(CompSc)\nProject arrangements\nDr. J.T.H. Yuen (Department of Computer Science)\nWHAT IS THE TOPIC OF THE PROJECT ?\nThe title of the project is “Design secure digital wallets”\n.\nWHAT DO STUDENTS DO IN THE PROJECT?\nAnalyze the state-of-the-art technologies of digital wallet in cryptocurrency and implement them as an online secure digital wallet service\n.\nWHAT WILL STUDENTS LEARN?\nSecure user authentication method (such as two factor authentication, multi-signature scheme) and secret key protection mechanism (multiple key derivations from a single seed value)\n.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nThis project has two learning objectives: 1. Understand the importance of security in software development and with hands-on implementation. 2. Understand the popular blockchain system and works in the user-side development of the blockchain applications\n.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThe biggest challenge of this work is that this project requires a lot of self-study before the student can start on developing the software. The student has to self-study the concept of blockchain first. He has to read the whitepapers of other digital wallet softwares to understand how other developers work on this problem. Then he needs to find a suitable platform to develop his application by himself. He has to read all the documentation of the new development platform and the new smart contract programming language. The documentation is sometimes incomplete because blockchain is a very new technology.\nWHAT MAKES A GOOD PROJECT IN THIS COURSE?\nThe project is interesting because it is related to a very popular topic – blockchain. Currently, the job market for blockchain developers are blooming and this project can help the student to work in this new industry. In fact, there are a few companies who are in touch with me about developing a secure digital wallet and I referred them to my student. This project equips the student with the knowledge of security and blockchain, which is in high demand from the industry.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/AdityaSethiCrypto-ADITYA-SETHI-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid9/",
+        "position": 0
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:18.124257+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/club-grenade/",
+    "title": "Club Grenade",
+    "text": "Club Grenade\nCourse project, COMP3329 Computer Game Design and Programming​\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nProject information\nProject descriptions\nClub Grenade is a fast-paced multiplayer action game which a group of friends and family of all ages, at a maximum of four players, can enjoy. In the game, each player controls a character who infiltrates a high-tech facility and fights through waves of enemies with grenades only. The game has a cartoony art-style with cel shading and outline. The game currently features four unique playable characters, four types of enemies, five types of grenades and a single large level with three stages, all fully animated and textured. The players win if they defeat all enemies and exit the level, or lose if all players have been defeated.\nTeam information\nProject leader: Yuen Hoi Man, BEng(CompSc)\nTeam member(s): Hung Lok Shun,\nBEng(CompSc\n); Yiu Lok Yan Serena, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website\nAwards\nWinner of the Dean’s Fund Award @ The 1st Engineering InnoShow\nThis project team was selected for the Dean’s fund award at the 1st Engineering InnoShow.\nThis team has received HK$10,000 sponsorship to participate in external competitions or incubation/ entrepreneurship/ startup programmes.\nThe best project award - COMP3329 Computer Game Design and Programming @ The 1st Engineering InnoShow\nThis project team was selected for the best project award – COMP3329 Computer Game Design and Programming at the 1st Engineering InnoShow.\nMembers of the Club Grenade project team in HKUEAA Annual Dinner",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/COMP3329Poster-HOI-MAN-YUEN-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/cover-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot1-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot2-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot3-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 4
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot4-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 5
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot5-HOI-MAN-YUEN.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 6
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/cover-HOI-MAN-YUENfb.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 7
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/winner-dean-award.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 8
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/winner-best-project-award-COMP3329.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 9
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Club-Grenade_HKUEAA-1024x461.jpg",
+        "alt": "",
+        "caption": "Members of the Club Grenade project team in HKUEAA Annual Dinner",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/club-grenade/",
+        "position": 10
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:19.091925+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/projectid12/",
+    "title": "Bookbytes",
+    "text": "Bookbytes\nCourse project, COMP3330 Interactive Mobile Application Design and Programming\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nkit\nApril 25, 2019\n3:24 pm\nProject information\nProject descriptions\nBookbytes serves as an online social networking platform for both avid book readers and causal book readers. Users can maintain a list of books to read,already read, dropped and on hold. The defining feature is the availability of a multitude of book clubs catering to people of all ages of all tastes from all parts of the world, except maybe Antarctica. Users can also give and receive book recommendations, post on threads in the clubs they are in and also post comments in the thread. In essence, Bookbytes is a dedicated platform where book lovers can explore their ‘niche’ to their hearts’ content.Currently, only a free-app version with ad revenue pricing model is under consideration.\nTeam information\nProject leader: Sourav Padhiari, BEng(CompSc)\nTeam member(s): Amsal Lakhani,\nBEng(CompSc\n); Ankit Tibrewal, BEng(CompSc); Omer Raza, BEng(CompSc); Utkarsh Goel, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-23-at-10.47.26-AM-Sourav-Padhiari.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid12/",
+        "position": 0
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:19.908362+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/projectid13/",
+    "title": "The Library: A stealth game",
+    "text": "The Library: A stealth game\nCourse project, COMP3329 Computer Game Design and Programming​\nProject supervisor: Dr. T.W. Chim (Department of Computer Science)\nkit\nApril 25, 2019\n3:56 pm\nProject information\nProject descriptions\nThe Library is a horror/stealth game with an interesting narrative and immersive 3D Graphics. It is set in a library scene with several obstacles which the player must dodge while being chased by a monster. The player is exposed to three power ups through the course of the game- restore sanity, Speed gain and invisibility which aid help him/her in his escape. The goal of the game is to obtain 4 out of the 7 hidden keys and finally escape from the clutches of the monster through the exit door without losing his sanity. The game was developed using the Unity Game Engine and captures the lenses of surprise, fun and curiosity.\nTeam information\nProject leader: Rachaika Verma, BEng(CompSc)\nTeam member(s): Dhruv Agrawal,\nBEng(CompSc\n); Nancy Lam, BEng(CompSc); Lee Yong Ting, BEng(CompSc); Sang Zhen Fai, BEng(CompSc)\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/COMP3329_InnoShow_Poster-RACHAIKA-VERMA.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid13/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-22-at-10.22.37-PM-RACHAIKA-VERMA-1.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid13/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-22-at-10.23.42-PM-RACHAIKA-VERMA-1.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid13/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-22-at-10.23.58-PM-RACHAIKA-VERMA-1.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid13/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Screenshot-2019-04-22-at-10.24.12-PM-RACHAIKA-VERMA-1-1.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid13/",
+        "position": 4
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:20.748915+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/single-cell-traction-force-measurement-assay-with-multiphoton-based-protein-micropatterns/",
+    "title": "Single cell traction force measurement assay with multiphoton-based protein micropatterns",
+    "text": "Single cell traction force measurement assay with multiphoton-based protein micropatterns\nFinal Year Project\nfrom\nDepartment of Mechanical Engineering\nProject supervisor: Professor\nChan B.P.\nkit\nApril 25, 2019\n5:01 pm\nA multiphoton-based protein micropatterning technique was developed in our lab previously. In this project, protein micropillar arrays were fabricated for cell seeding, and it was utilized for single cell traction force measurement. On the other hand, a method for encapsulating cells in collagen gel for cell therapy was also developed in the lab before. In order to improve the efficiency of cell therapy using this method, characteristics of these cells has to be identified. Therefore, the traction force of stem cells that are migrated out from the gel and the cells that are not encapsulated in the gel were measured and compared to understand the differences between them.\nProject leader: Cheung Hoi Lam, BEng in Medical Engineering\nProject poster\nProject video\nProject images\nMedia links\nWebsite",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/InnoshowPosterCheungHoiLam-Hoi-Lam-CHEUNG-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/single-cell-traction-force-measurement-assay-with-multiphoton-based-protein-micropatterns/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/figure-for-cell-navigator-mitochondrion-staining-kit-nir-fluorescence_AFZaG-Kalyn-Cheung.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/single-cell-traction-force-measurement-assay-with-multiphoton-based-protein-micropatterns/",
+        "position": 1
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:21.549285+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/projectid15/",
+    "title": "Identifying priority areas for the improvement of minibus service quality",
+    "text": "Identifying priority areas for the improvement of minibus service quality\nFinal Year Project\nfrom CIVL4102\nProject supervisor: Dr. C.P. Wong (Department of Civil Engineering)\nkit\nApril 25, 2019\n4:41 pm\nProject information\nProject descriptions\nThe minibus is the third most popular form of transportation in Hong Kong, contributing 13% of all trips made in the city. This project aims to identify the priority areas for improvement of minibus services quality which could serve as a reference for related policy making in the future. An on-street questionnaire survey was conducted in December 2018 to collect the up-to-date data, primarily on the public’s ratings on 10 selected service aspects. An ordered logit model was then calibrated for the data to identify the relative importance of these 10 service aspects. After having the relative importance and the satisfaction ratings, an importance-satisfaction analysis was carried out to find out which service aspect has the highest priority for improvement. Result shows that among the 10 service aspects, “in-vehicle comfort” has the highest priority for improvement in both green and red minibuses.\nTeam information\nProject leader: Tai Ho Ting Louis, BEng(CivE)\nProject arrangements\nDr. C.P. Wong (Department of Civil Engineering)\nWHAT IS THE TOPIC OF THE PROJECT ?\n‘Identifying priority areas for the improvement of minibus service quality’\nMinibus is one of the major public transportation in Hong Kong. According to the Travel Characteristics Survey published by the Transport Department of the Hong Kong Government in 2018, 13% among all trips made in Hong Kong are minibuses trips, ranking minibuses the third popular mode of transport in the city. Despite that minibus is not the most important form of public transportation, it still has its significance as a feeder service which connects local community to the major transportation network which is considered a unique feature of minibus. In light of the significance of minibus, this project aims to identify the priority areas for the improvement of minibus services quality.\nWHAT DO STUDENTS DO IN THE PROJECT?\nMain components of works involved in this project include literature review, data collection, data analysis, oral presentation and technical report writing.\nLiterature review is essential to form the basis for the project which helps student to understand more about the research subject; Data is then need to be collected since this project is a data-oriented study. The major method for data collection is an on-street questionnaire survey, in which data covers the minibus service satisfaction level; With the data collected, they are then being processed to generate the outcomes; An oral presentation will have to be done for students to present their findings; As for report writing, an interim report and a final report are submitted at the end of semester one and two respectively.\nWHAT WILL STUDENTS LEARN?\nUpon completion of this project, student should be able to identify thus address a real-life problem through conducting research since the project is primarily done by the student oneself.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nNot only acquiring the skills involved in an academic research, but also some soft skills that will be useful for students in the future workplace. For instance, working with the team of student research assistants sharpens students’ communication and management skills; while working on a year-long project develops students’ ability to plan, develop and monitor the project progress.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThe biggest challenges involved in this project would be the on-street questionnaire survey and the subsequent data analysis. These are new skills to be acquired by most students and takes time to sharpen out. But more importantly, asking strangers on the street to participate in the survey involves great difficulties. The acceptance rate of a stranger to participate is approximately 1 in 20, while most of those who reject are being extremely rude and disrespectful. These inevitably make students reluctant to continue the survey activities, but in order collect sufficient data for data analysis, the challenges has to be overcome.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/FYP-Poster-jpeg-Ho-Ting-Louis-TAI-2.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid15/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Cover-Photo-Ho-Ting-Louis-TAI.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid15/",
+        "position": 1
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:22.490450+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/projectid18/",
+    "title": "Realistic visualization of bridge structure in a Virtual Reality environment",
+    "text": "Realistic visualization of bridge structure in a Virtual Reality environment\nFinal Year Project, CIVL4102\nFinal Year Project\nProject supervisor:\nDr. S.H. Lee\n(Department of Civil Engineering)\nkit\nApril 25, 2019\n5:19 pm\nProject information\nProject descriptions\nEfficient collaboration of data is essential for successful project delivery of\nBuilding Information Modeling (BIM), which mainly relies on its visualization performance. VR technology can extend the advantage to create a more engaging and realistic environment for every stakeholder. As a large number of software for BIM and VR computing are available on the internet, it is vital to find the most effective workflow to transfer the project from modeling tool to the VR engine.\nIn this project, we would explore the performance of different software and hardware to find the best solution to BIM-VR collaboration workflow.\nTeam information\nProject leader: Zhong Pei Qi, BEng(CivE)\nProject arrangements\nDr. S.H. Lee (Department of Civil Engineering)\nWHAT IS THE TOPIC OF THE PROJECT ?\n‘Realistic visualization of bridge structure in a Virtual Reality environment’\nThe topic of this project is to develop a realistic virtual reality (VR) model of a bridge structure and visualize it in a fully immersive VR environment such that a player can interactively experience the bridge from various perspectives such as bridge visuals and engineering behaviors in different conditions.\nWHAT DO STUDENTS DO IN THE PROJECT?\nThe student explores VR technologies and techniques/applications for advanced visualization of bridges in a VR environment. Then, the student develops and visualizes a virtual model of a bridge that is meaningful/interesting to civil engineering students with necessary features and effects such as textures and animations based on numerical analyses.\nWHAT WILL STUDENTS LEARN?\nThe student will learn fundamentals of the VR technology and obtain hands-on exercise of how to best utilize the technology for Civil Engineering projects such as design review, engineering analysis simulations, construction simulations, and trainings.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nAdvanced computing technologies that enable engineers to realistically visualize different kinds of civil infrastructures has gained increasing attentions and been used in the current practice. Many engineering design, simulations and analyses such as numerical simulations of structural behaviors under extreme loading conditions are used and the results are visualized for civil engineers to better understand and develop best design solutions. By conducting this project, the student exposed to the technologies early and equipped with the necessary skills will be well-prepared for this current engineering practice.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThis project requires intensive modeling techniques and basic knowledge on computing such as programming skills and software design, which most students in Civil Engineering do not have. The student needs to be able to understand how a VR model is created and successfully apply the knowledge onto civil engineering projects.\nWHAT MAKES A GOOD PROJECT IN THIS COURSE?\nThere can be different levels of “reality” in a virtual model in terms of its behavior as well as its esthetics. In order to be a good project, the model should not only look as close to the actual structure as possible, but also it should be able to demonstrate the behaviors of the structure as accurately as possible.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/poster-Shirley-SZ-1.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/projectid18/",
+        "position": 0
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:23.407983+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/datax/",
+    "title": "Datax",
+    "text": "Datax\nEngineering startup projects\nSupervisor: Dr. S.M. Yiu (Department of Computer Science)\nkit\nApril 25, 2019\n5:45 pm\nProject information\nProject descriptions\nWe are a research data crowdsourcing platform for researchers & AI companies to collect & enrich data with the help from public contributors. We are founded by a group of HKU BBA(IS)/CS graduates and MSc(CS) students, supported by HKU, Cyberport and HKSTP.\nIf you need labels & annotations for your AI/ML projects, or look for manpower for collecting & preprocessing data, we can help save time & resource required to manage the data contributors and collect more quality & diverse data efficiently. Our platform currently specializes in offering:\n1. Image/Video/Audio/Doc tagging & annotation\n2. Survey\n3. Sentiment analysis\nTeam information\nProject leader: Wong Wai Chun, Kevin, BBA(IS) graduate\nTeam member(s): Lung Yue Hin Hinnes, MSc(CS); Pang Chee Hin Marvin, MSc(CS); Tam Yat Hei, BBA(IS) graduate\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/InnoShow-Poster-Datax-2.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/datax/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-1-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/datax/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-2-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/datax/",
+        "position": 2
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-3-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/datax/",
+        "position": 3
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/screenshot-ios-max-4-Kevin-Wong.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/datax/",
+        "position": 4
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:24.232175+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/qpi/",
+    "title": "Advancing optical label-free cellular imaging – from instrumentation to cell assays",
+    "text": "Advancing optical label-free cellular imaging – from instrumentation to cell assays\nFinal Year Project\n,\nDepartment of\nElectrical and Electronic Engineering\nProject supervisor: Dr. K.K.M. Tsia (\nDepartment of\nElectrical and Electronic Engineering)\nkit\nApril 25, 2019\n6:24 pm\nQuantitative phase imaging (QPI) is an advanced optical microscopy technique that requires no sample staining and allows quantitative measurement of biophysical parameters of the cell specimens. This technique is desirable especially in live-cell imaging, as it can yield cellular dry mass distribution, intracellular dynamics as well as size of cells with minimal intervention/damage to the sample. A compact and easily-compatible setup of QPI was developed and applied to a wide range of biomedical applications, ranging from fundamental biological studies in brain imaging, to the clinical studies in drug-screening for breast cancer cells and characterization of pathogenic bacteria biofilms.\nProject leader: Chun ha Eun, BEng(MedE)\nTeam member(s): Le Thanh Hai Dang, Chui Mei Yee\nProject poster\nProject video\nProject images\nMedia links\nWebsite\nAwards\nWinner of the Dean’s Fund Award @ The 1st Engineering InnoShow\nThis project team was selected for the Dean’s fund award at the 1st Engineering InnoShow.\nThis team has received HK$10,000 sponsorship to participate in external competitions or incubation/ entrepreneurship/ startup programmes.",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/FinalPoster-Thanh-Hai-Dang-Le-1024x1013.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/qpi/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/DPM-setup-Ha-Eun-Chun.png",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/qpi/",
+        "position": 1
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/winner-dean-award.fw_-1024x1024.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/qpi/",
+        "position": 2
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:25.107263+00:00"
+  },
+  {
+    "url": "https://innoacademy.engg.hku.hk/3d-food-printer/",
+    "title": "3D Food printer",
+    "text": "3D Food printer\nProject\nfrom\nMECH4429 Integrated Capstone Experience\nProject supervisor:\nDr. Ko M.W.L.\n(\nDepartment of Mechanical Engineering)\nkit\nApril 25, 2019\n6:46 pm\nProject information\nProject descriptions\nThe project aims to build a 3D food printer that is user-friendly for household users, through remodelling of the TEVO Tarantula 3D printer. Upon completion on configuration of hardware and software, an extrusion system is designed based on a meat mincer. The goal of this project is to print the customised dish with food material in high precisity. Another focus of this project is exploring food material applicable for 3D printing. With rich nutrient content and high formability, potatoes is chosen to make a great show with other supporting actress. The effort paid by the team does make an exciting return. It is wished that the efficiency of the printer can be greatly enhanced in the foreseeable future and finally be a necessary for a home.\nTeam information\nProject leader: Au Chun Yin, BEng\nTeam member(s): Au Yeung Ho Lam, BEng; Kwok Hong Yiu, BEng; Lam Kin Ting BEng; Lee Hok Lun, BEng\nProject arrangements\nDr. Ko M.W.L. (Department of Mechanical Engineering)\nWHAT IS THE TOPIC OF THE PROJECT ?\nThe title of the project is “3D food printer”.\nPrevalent around the globe, three-dimensional (3D) printing technology is capable to print objects with 3D printer using various materials; so does food material. Traditional cooking method tends to be enriched by 3D printing process. In addition, food printing technology now could also be applied in commercial cooking, where some restaurants use it as gimmick. Therefore, the topic of this project is to transform an ordinary 3D printer into a food printer and explore the printable food material. Primarily 3D food printer is made to cater people with chewing and swallowing disorder, given that meals produced by food printing could be customized by patients that balance nutrition needs and visual appeal, in contrast of hospital-styled unappetizing pureed food. Hence, the motivation of this project is to introduce an accessible, affordable and manageable 3D food printer for ordinary family, especially whose family member has eating difficulty\n.\nWHAT DO STUDENTS DO IN THE PROJECT?\nThere are three sections in the project: building and remodeling the 3D printer, rebuild the extrusion system and the ejection mechanism specifically for food material on the store bought 3D printer; experimenting food materials that have the suitable rheological properties for printing with help of professional scientific instruments; rewriting the software programme that controls printer with applicable settings. After that printing trials are conducted to justify the chosen food material and to explore the best set of parameters for the remodeled 3D food printer.\nWHAT WILL STUDENTS LEARN?\nThis project transfers multiple skills to students: first, students can thoroughly understand the working mechanism of 3D printers by practically remodeling the chosen model 3D printer into food printer; secondly, students may experience academic research on different types of extruder, material and firmware which are suitable for application; moreover, students would acquire better team building and communication skills through collectively responsible group decision-making process. In addition, students will also be required to handle unpredictable challenges in the progress.\nLet those difficulties we found in our project as examples. At first, there were many errors in the printing trials and the printing results were not satisfactory. After adjustments and calibration, our remodeled printer could finally print out some simple shapes with food printing material. Thus, students will learn to overcome challenges with their own strengths.\nWHY IS THIS PROJECT IMPORTANT TO STUDENT LEARNING?\nThis project allows students to take a proactive role to manipulate and modify a 3D printer, from constructing the printer; experimenting food material; trialing software, which realizes their theoretical knowledge through hands-on experience. Furthermore, it is a valuable experience for students to handle a project that could possibly impact society and benefit people with chewing and swallowing difficulties.\nThis project is also a preview of an engineering project at workplace in real life that as well requires preliminary research, feasibility analysis, customer marketing investigation and budgeting, which could be a comprehensive training for students becoming professional engineers whom should acquire excellent management skills, team-building ability and technical proficiency.\nWHAT ARE THE BIGGEST CHALLENGES IN THIS PROJECT?\nThe biggest challenge faced in the project was the slow flow rate of food material during extrusion. After the printer was assembled with our own designed extrusion system and ran its first trial with food material, the result is disappointing that the slow flow rate of food material resulted in a long printing time. Regarding the aim of introducing food printer for domestic use, producing dinner for hours would not be acceptable. The team had tried ways to increase the flow rate, for instance, the team redesigned the extrusion system, used a stronger motor, changed the receipt of food material for better viscosity. It was excited that the printer was finally able to print the food into shape after adopting the above changes albeit the speed of printing is slow. In the future, improving the speed of printing will be further studied.\nWHAT MAKES A GOOD PROJECT IN THIS COURSE?\nDifferent from other research-based projects, this project requires students to consider of people’s feeling towards the 3D food printer, the printing process and the printed product. The aim of the project is not simply building a machine that can print food, instead it stresses that the food printer could become a reliable source of meal for everybody, including the elderly, the kids, and people with eating disorder.\nHence, the project does not only trains students’ engineering skills and knowledge, but also helps them understanding the responsibility of engineers: bridge between scientific discoveries and their subsequent applications to human and quality of life.\nProject poster\nProject video\nProject images\nMedia links\nProject website",
+    "images": [
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Inno-show-poster-chunyin-au.jpeg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/3d-food-printer/",
+        "position": 0
+      },
+      {
+        "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/NM-by-Food-Ink-Corn-Cob-Dish-Printing-Closeup-1-chunyin-au.jpg",
+        "alt": "",
+        "caption": "",
+        "title": "",
+        "page": "https://innoacademy.engg.hku.hk/3d-food-printer/",
+        "position": 1
+      }
+    ],
+    "site": "innoacademy.engg.hku.hk",
+    "content_type": "page",
+    "categories": [],
+    "published_at": "",
+    "modified_at": "",
+    "retrieved_at": "2026-09-23T03:00:26.138236+00:00"
+  }
+]
