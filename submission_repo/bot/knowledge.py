@@ -139,4 +139,3 @@ def retrieve_knowledge(question: str, k: int = 10) -> list[dict]:
 
     ranked.sort(key=lambda item: (-item[0], item[1]["metadata"]["fact_id"]))
     return [item for _, item in ranked[:k]]
-
