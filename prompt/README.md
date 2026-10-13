@@ -1,10 +1,10 @@
 # Location-based image knowledge records
 
-All descriptions in this directory are written in English prose. Original image filenames and folder names are retained for traceability. Each `prompt.md` is a factual, image-grounded knowledge document intended for retrieval, rather than an instruction to generate another description. The records follow the supplied workflow: identify the location, describe visible text and spatial information separately, and retain both under the same location. They cover 33 photographs in 19 records, including a nested Wet Lab - Culture Room record and four standalone-image records.
+All descriptions in this directory are written in English prose. Original image filenames and folder names are retained for traceability. Each `prompt.md` is a factual, image-grounded knowledge document intended for retrieval, rather than an instruction to generate another description. The records follow the supplied workflow: identify the location, describe visible text and spatial information separately, and retain both under the same location. They cover 108 photographs in 28 records: the original 33 JPEG photographs and 75 additional HEIC photographs from Pictures_Hzx. Existing locations incorporate the additional evidence in their original records; nine newly documented locations or circulation/display areas have their own records. The four original standalone-image folders and the nested Wet Lab - Culture Room record are retained.
 
 Each subject is described in connected paragraphs. Short headings separate related topics, and source-image links preserve attribution. Visible wording, colors, counts and spatial relationships are included where supported. Counts refer to the visible image rather than an assumed complete inventory. Unreadable text, unknown locations and conflicting notices remain explicit. Document dates do not establish the image capture date, and photographed rules or telephone numbers have not been verified as current.
 
-For Chroma ingestion, split these documents at paragraph or topic boundaries and retain the location name with every resulting chunk. If a paragraph is too long for the configured embedding model, split it at sentence boundaries. Carry the source links, record path, section title and chunk position as metadata; also retain `kind=image_description`, `content_type=image/jpeg`, the review date `2026-10-13`, and an unknown capture date. The original image path is the stable local source identifier. Preserve multiple source links when a section combines images. Unknown-location records must remain unknown rather than acquiring a room name from a nearby record. Avoid indexing this README as factual evidence about the building.
+For Chroma ingestion, split these documents at paragraph or topic boundaries and retain the location name with every resulting chunk. If a paragraph is too long for the configured embedding model, split it at sentence boundaries. Carry the source links, record path, section title and chunk position as metadata; also retain `kind=image_description`, the actual image content type (`image/jpeg` or `image/heic`), the review date `2026-10-13`, and an unknown capture date. The original image path is the stable local source identifier. Preserve multiple source links when a section combines images. Unknown-location records must remain unknown rather than acquiring a room name from a nearby record. Avoid indexing this README as factual evidence about the building.
 
 Embedding these records and adding them to Chroma makes them retrievable knowledge; it does not train or fine-tune the chatbot model. These files have not yet been embedded or imported into Chroma. Keep the raw images separate so descriptions and the database can be rebuilt. Future additions to this directory should continue using English paragraphs with the same source attribution and evidence boundaries.
 
@@ -47,3 +47,26 @@ Embedding these records and adding them to Chroma makes them retrievable knowled
 [LG directional sign](微信图片_20261013104643_86_35/prompt.md)
 
 [Electronics workbench at an unidentified location](微信图片_20261013104644_87_35/prompt.md)
+
+
+## Additional location records from Pictures_Hzx
+
+[Conference Room (IW-G02)](Conference_Room/prompt.md)
+
+[Thematic Workshop A](Thematic_Workshop_A/prompt.md)
+
+[Thematic Workshop B](Thematic_Workshop_B/prompt.md)
+
+[Thematic Workshop C](Thematic_Workshop_C/prompt.md)
+
+[Makerspace A](Makerspace_A/prompt.md)
+
+[Ground-floor entrance and reception surroundings](Ground_Floor_Entrance/prompt.md)
+
+[Entrance history display](Entrance_History_Display/prompt.md)
+
+[Restroom approach](Restrooms/prompt.md)
+
+[Photographed fire-exit and glazed-door surroundings](Fire_Exits/prompt.md)
+
+The [Pictures_Hzx source manifest](pictures_hzx_manifest.json) records all 75 original HEIC paths, SHA-256 hashes, destination documents and section titles. Source folder labels were treated as hints: visible plaques take precedence. Photos of Thematic Workshop H and Dream Chamber filed under Brainstorming Area were reassigned to their named rooms. A separate same-name DreamChamber glazing view remains explicitly unresolved rather than supplying an assumed LG14 interior.

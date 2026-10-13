@@ -16,7 +16,7 @@ According to the rules sheet photographed for Dream Chamber, Conference Room and
 
 The photographed rules state that Conference Room furniture, equipment and electronic devices belong to Innovation Wing, and users may be charged for loss or damage. Food and beverages are prohibited in both the Conference Room and Meeting Room. Users must keep the rooms clean and tidy, remain responsible for their personal property and never leave belongings unattended. Innovation Wing disclaims responsibility for loss of or damage to personal belongings.
 
-The rules sheet states that Innovation Wing staff may remove belongings or revoke room-use rights when users fail to comply with its regulations. Innovation Wing retains sole and final discretion in interpreting the regulations in a dispute. The final notice reads, "Rules and guidelines are subject to change [unreadable] prior notice." The unclear word is not reconstructed.
+The rules sheet states that Innovation Wing staff may remove belongings or revoke room-use rights when users fail to comply with its regulations. Innovation Wing retains sole and final discretion in interpreting the regulations in a dispute. The earlier rules-sheet photograph left one word unresolved. The clearer Pictures_Hzx image IMG_2653 confirms the final notice: "Rules and guidelines are subject to change without prior notice."
 
 ## Text information: safety card
 
@@ -39,3 +39,31 @@ The Dream Chamber booking notice and the dated rules sheet give different bookin
 Sources: [Source image 56_35](../../image_source/Dream_Chamber/微信图片_20261013104614_56_35.jpg); [Source image 57_35](../../image_source/Dream_Chamber/微信图片_20261013104615_57_35.jpg); [Source image 58_35](../../image_source/Dream_Chamber/微信图片_20261013104616_58_35.jpg).
 
 The Dream Chamber rules sheet is a portrait-oriented white page with seven numbered sections and a date near the bottom right. The safety card is a portrait page with a crest at the upper left, a yellow heading area at the upper right and contact information arranged in four columns. The booking notice is framed on glass, with a blue "NOTICE" heading and six green-ringed illustrations arranged in two rows of three. These images do not establish the room's dimensions, furniture count or screen position.
+
+## Additional photographic evidence: Pictures_Hzx
+
+The following English paragraphs preserve source-specific text and spatial information from the Pictures_Hzx collection, reviewed on October 13, 2026. Overlapping views must not be added together as separate room inventories.
+
+### Text and spatial information: confirmed LG14 entrance
+
+Sources: [IMG_2651](../../image_source/Pictures_Hzx/brain storming area/IMG_2651.HEIC); [IMG_2652](../../image_source/Pictures_Hzx/brain storming area/IMG_2652.HEIC).
+
+IMG_2651 confirms the entrance plaque "IW-LG14" and "Dream Chamber". The glass door has frosted horizontal bands, a vertical "PUSH" label, a framed booking notice on the left and a rules sheet and safety card on the right. Reflections and glazing prevent a reliable interior layout description.
+
+The Dream Chamber booking notice is shown closely in IMG_2652. It states "BOOKING IN ADVANCE IS REQUIRED", specifies a minimum of two persons, requires all bookings to be made in person at the G/F office, and asks users to present their student ID card when booking and entering. Users must arrive and leave on time, clean the table and push in chairs after use, and turn off lights and air conditioning when leaving. The footer directs readers to contact the office for further information. Six green-ringed icons illustrate these requirements.
+
+### Text information: dated rules and safety card
+
+Sources: [IMG_2653](../../image_source/Pictures_Hzx/brain storming area/IMG_2653.HEIC); [IMG_2654](../../image_source/Pictures_Hzx/brain storming area/IMG_2654.HEIC).
+
+The Dream Chamber rules sheet in IMG_2653 is titled "Rules and Guidelines for Conference Room and Meeting Room" and dated Nov 25, 2024. It distinguishes Meeting Room eligibility for all Innovation Wing members from Conference Room eligibility for SIG members only. It gives opening hours of Monday to Friday 9:00 am to 9:00 pm and Saturday 9:00 am to 1:00 pm, with closure on Sundays and public or university holidays. It permits bookings at the Reception counter or via innowing@hku.hk on a first-come-first-served basis, with a maximum of two 60-minute sessions per eligible user each day.
+
+The rules sheet photographed at Dream Chamber requires academic use, designates the Meeting Room for team meetings or hands-on work rather than individual use, prohibits food and beverages, and requires users to protect their belongings and maintain cleanliness. It permits charges for loss of or damage to Conference Room property, allows staff to remove belongings or revoke room-use rights for violations, and gives Innovation Wing final discretion in interpreting the regulations. The last line visibly states that rules and guidelines are subject to change without prior notice. The in-person-only booking notice gives a different channel from the rules sheet; these sources do not establish which supersedes the other.
+
+IMG_2654 confirms the "LG14 Dream Chamber" safety card. It lists Prof. C.K. Chui, Director, at 3910 2399; Mr. C.S. Seto, Senior Technical Officer, at 3910 2384; Mr. H.Y. Law, Technical Officer, at 3910 2302; Mr. Ryan Chan, Senior Technical Officer and emergency contact, at 3910 2390; and the Security office at 2859 2882. The card lists General Safety and an update date of 30/9/2026, with blank major-hazard and protection cells. These are photographed contacts and instructions, not a live verification.
+
+### Unresolved location: glazing bearing the same name
+
+Sources: [IMG_2689](../../image_source/Pictures_Hzx/All kinds of rooms/IMG_2689.HEIC).
+
+IMG_2689, filed under "All kinds of rooms", shows large "DreamChamber" lettering on glazing, with desks, monitors, cables, papers and a wall bearing faint handwriting visible behind it. No readable room-number plaque appears in this photograph. It is retained here as same-name evidence, but it is not confirmed to depict IW-LG14. The visible workstations must not be treated as a verified LG14 Dream Chamber furniture inventory.

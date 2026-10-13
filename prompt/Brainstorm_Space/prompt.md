@@ -39,3 +39,33 @@ Brainstorming Area has tiered seating with blue-gray surfaces, light wood and wh
 In source image 67_35, a blue freestanding "Brainstorming Area" sign occupies the foreground, the tiered seating is to the left, and a large display with a blue circuit-like background appears farther right. Glass doors and partitions enclose part of the background. A reflected screen in the glass should not be counted as a separate display. "PUSH" and "NOTICE" are readable, while the screen's small desktop labels are not.
 
 In source image 68_35, the wall behind the seating displays the words "ENGINEERING" and "INNOVATION". Glass doors are immediately to the right of the tiers. On the left, light-wood cabinets support a white countertop with a pale-purple water dispenser and a sink with a tap. Four notices appear along the wall and another is near the sink. A pale-green overhead structure and gray striped carpet are visible. The two photographs show overlapping views of the same area, so their furniture counts must not be added together.
+
+## Additional photographic evidence: Pictures_Hzx
+
+The following English paragraphs preserve source-specific text and spatial information from the Pictures_Hzx collection, reviewed on October 13, 2026. Overlapping views must not be added together as separate room inventories.
+
+### Spatial information: overview and connection to the open area
+
+Sources: [IMG_2638](../../image_source/Pictures_Hzx/brain storming area/IMG_2638.HEIC); [IMG_2639](../../image_source/Pictures_Hzx/brain storming area/IMG_2639.HEIC); [IMG_2640](../../image_source/Pictures_Hzx/brain storming area/IMG_2640.HEIC).
+
+The Pictures_Hzx views identify Brainstorming Area with a freestanding blue sign. IMG_2638 shows the tiered seating on the left, rows of colorful cube stools in front, a large display farther along the wall, and an Innovation Wing presentation area beyond it. The stools include yellow, orange, rust-red and yellow-green surfaces. IMG_2640 provides a closer view of the seating, the light-wood cabinets, the white countertop and the blue wall graphic reading "HKU ENGINEERING INNOVATION". The tiers have light-wood faces with alternating blue-gray and white surfaces. A partial view does not establish a complete seating capacity.
+
+IMG_2639 shows Brainstorming Area on the left and Open Event Area tables on the right within the same broad view. A light-blue circulation strip with tactile floor markings runs between the carpeted zones. The staircase and its glass balustrade are to the right. Above both areas, exposed services and numerous rectangular light panels hang at different angles. This photograph supports their visible relationship without establishing an exact distance or compass orientation.
+
+### Text and spatial information: kitchenette notices
+
+Sources: [IMG_2641](../../image_source/Pictures_Hzx/brain storming area/IMG_2641.HEIC); [IMG_2642](../../image_source/Pictures_Hzx/brain storming area/IMG_2642.HEIC); [IMG_2643](../../image_source/Pictures_Hzx/brain storming area/IMG_2643.HEIC).
+
+The Brainstorming Area countertop in IMG_2641 has light wood-grain base cabinets, a white surface, a purple water dispenser and a rectangular dark sink. Four notices run horizontally along the hexagonal-patterned backsplash, and a fifth orange notice is mounted above the sink. IMG_2642 shows the four notices more closely: project items must not be left, unauthorized items may be disposed of without notice, hands-on activities and tool use are prohibited, and users should proceed to Maker Space A. The permitted activities listed are study, group discussion and collaborative learning. Personal belongings must be kept with users; unattended items will be cleared without notice. Food and drink are prohibited, and users are told to keep the area clean.
+
+IMG_2643 confirms the Brainstorming Area sink notice: "ATTENTION", "HAND-WASHING ONLY", "WATER DISPOSAL ONLY" and "ANY IMPROPER DISPOSAL WILL DAMAGE THE DRAINAGE SYSTEM." A small label above it reads "SAFETY FIRST" and "STOP! THINK!". A curved tap and two cleaning-product bottles stand at the sink, next to the purple dispenser on a green mat. One bottle visibly bears "AXE". These objects do not establish permission to discharge detergents or chemicals into the sink.
+
+### Text and spatial information: display, lectern and bell
+
+Sources: [IMG_2644](../../image_source/Pictures_Hzx/brain storming area/IMG_2644.HEIC); [IMG_2645](../../image_source/Pictures_Hzx/brain storming area/IMG_2645.HEIC); [IMG_2646](../../image_source/Pictures_Hzx/brain storming area/IMG_2646.HEIC); [IMG_2655](../../image_source/Pictures_Hzx/brain storming area/IMG_2655.HEIC).
+
+IMG_2644 shows a large display near Brainstorming Area with a blue circuit-style desktop background, a white freestanding lectern and a dark banner reading "Innovation Academy" and "Faculty of Engineering, HKU". An overhead exit indicator points right in the image. The lectern bears Innovation Wing branding. Screen icons and small banner text are not reliably transcribed.
+
+IMG_2645 and IMG_2655 show a wall plaque reading "Tam Wing Fan Innovation Wing" and "FACULTY OF ENGINEERING" near Brainstorming Area. A brass-colored bell hangs to the plaque's left; IMG_2655 clearly shows its green pull cord. A broad diagonal blue stripe crosses the wall. IMG_2645 also shows one black armchair, two narrow black metal stands and a wheeled monitor stand displaying blue on-screen panels. The bell's purpose is not stated in these photos.
+
+IMG_2646 looks upward from the tiered seating in Brainstorming Area. The "HKU ENGINEERING INNOVATION" graphic is visible below an atrium opening, with glazed upper-level edges, structural beams, exposed ceiling services and suspended rectangular lights. The image gives an upward spatial view and does not establish the number of building storeys.
