@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import sys
+import contextlib
+import io
 import tempfile
 import unittest
 from pathlib import Path
@@ -188,6 +190,23 @@ class ImageIndexTests(unittest.TestCase):
 
 
 class AnswerTests(unittest.TestCase):
+    def test_multiline_answer_is_one_line(self) -> None:
+        with patch.object(answer, "_retrieve_and_rerank", return_value=[]), patch.object(
+            answer, "chat", return_value="  Studio A: IW-LG05\r\nStudio B: IW-LG06\u2028Done\t "
+        ):
+            result = answer.rag_answer("List the studio identifiers.")
+        self.assertEqual(result, "Studio A: IW-LG05 Studio B: IW-LG06 Done")
+
+    def test_entrypoint_batch_preserves_line_count_and_order(self) -> None:
+        import main as entrypoint
+        output = io.StringIO()
+        with patch.object(answer, "_retrieve_and_rerank", return_value=[]), patch.object(
+            answer, "chat", side_effect=["A: IW-LG05\nB: IW-LG06", "\r\nGreen\n"]
+        ), patch.object(sys, "argv", ["main.py", "List studio identifiers.", "Cord colour?"]), \
+                contextlib.redirect_stdout(output):
+            entrypoint.main()
+        self.assertEqual(output.getvalue().splitlines(), ["A: IW-LG05 B: IW-LG06", "Green"])
+
     def test_visual_year_filter_uses_chroma_types_and_and_operator(self) -> None:
         self.assertEqual(
             answer._metadata_where("What is shown in the 2025 picture?"),

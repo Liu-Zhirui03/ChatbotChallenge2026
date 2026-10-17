@@ -194,7 +194,9 @@ def rag_answer(question: str) -> str:
         {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {question}"},
     ])
 
-    reply = reply.strip()
+    # main.py prints each returned string as one answer. LLM formatting must
+    # never introduce extra stdout lines and shift subsequent answers.
+    reply = " ".join(reply.split())
     if _wants_number(question):
         return _as_number(reply)
     return reply

@@ -48,8 +48,12 @@ def main():
     parser.add_argument("--mode", choices=("lexical", "hybrid", "answers"), default="lexical")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--ids", nargs="+")
+    parser.add_argument("--dataset", type=Path, default=CASES,
+                        help="Question JSON; relative paths are resolved from the working directory")
     args = parser.parse_args()
-    cases, records = read(CASES), read(OUTPUT / "records.json")
+    cases, records = read(args.dataset), read(OUTPUT / "records.json")
+    if not cases:
+        raise ValueError("question dataset is empty")
     validate(cases, records)
     if args.ids:
         if set(args.ids) - {c["id"] for c in cases}:
@@ -58,7 +62,8 @@ def main():
     if args.output.exists():
         raise ValueError("choose a new output directory; reports are not overwritten")
     args.output.mkdir(parents=True)
-    report = {"mode": args.mode, "dataset_sha256": sha(CASES.read_bytes()),
+    report = {"mode": args.mode, "dataset": str(args.dataset),
+              "dataset_sha256": sha(args.dataset.read_bytes()),
               "records_sha256": sha((OUTPUT / "records.json").read_bytes()), "questions": []}
     for index, case in enumerate(cases, 1):
         print(f"[{index}/{len(cases)}] {case['id']}", file=sys.stderr, flush=True)
