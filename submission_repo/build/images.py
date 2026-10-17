@@ -211,6 +211,7 @@ def index_descriptions(descriptions: dict[str, str], images: list[dict],
                 "title": document.get("title", "") if document else "",
                 "image": src,
                 "kind": "image",
+                "evidence_pipeline": "legacy_web_images",
                 "document_id": document_id,
             }
             if document and document.get("year") is not None:
@@ -227,10 +228,13 @@ def index_descriptions(descriptions: dict[str, str], images: list[dict],
         return 0
 
     store = get_store(reset=False)
-    try:
-        store.delete(where={"kind": "image"})
-    except Exception:
-        pass
+    # This legacy builder owns img_* records, not reviewed local/web evidence.
+    existing = store.get(where={"kind": "image"}, include=["metadatas"])
+    owned = [identifier for identifier, meta in zip(existing["ids"], existing["metadatas"])
+             if identifier.startswith("img_")
+             and (meta or {}).get("evidence_pipeline") != "reviewed_images_v1"]
+    for start in range(0, len(owned), 128):
+        store.delete(ids=owned[start:start + 128])
     add_to_store(store, texts, metas, ids=ids)
     print(f"indexed {len(texts)} image description chunks")
     return len(texts)

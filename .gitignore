@@ -7,3 +7,9 @@ __pycache__/
 # Rebuildable website image bytes and original media API response cache.
 submission_repo/data/web_academy/
 prompt_from_web/innoacademy/media.json
+
+# Rebuildable reviewed-image indexes and embedding cache (sources/records are tracked).
+submission_repo/data/image_search.sqlite*
+submission_repo/data/image_evidence/embeddings/
+submission_repo/data/image_evidence/indexed.json
+submission_repo/eval/image_runs/

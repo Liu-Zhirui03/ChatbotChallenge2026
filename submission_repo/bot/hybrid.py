@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 import sqlite3
 from pathlib import Path
 
 from bot.knowledge import expand_query, retrieve_knowledge
+from bot.image_evidence import retrieve_images
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -145,6 +147,11 @@ def _rule_adjustment(question: str, candidate: dict) -> float:
     text = candidate.get("text", "").casefold()
     page_type = str(metadata.get("page_type", "")).casefold()
     score = 0.0
+    # An explicit image filename is an evidence selector, not a generic noun.
+    source_ids = json.loads(metadata.get("source_ids_json", "[]"))
+    named_images = re.findall(r"[\w/.-]+\.(?:jpg|jpeg|png|heic|webp)\b", q)
+    if any(str(source).casefold().endswith(name) for source in source_ids for name in named_images):
+        score += 0.12
 
     query_terms = set(_terms(question))
     title_terms = set(_terms(title))
@@ -192,12 +199,14 @@ def _rule_adjustment(question: str, candidate: dict) -> float:
 
 
 def hybrid_rank(question: str, dense: list[dict], lexical: list[dict],
-                k: int, knowledge: list[dict] | None = None) -> list[dict]:
+                k: int, knowledge: list[dict] | None = None,
+                image_lexical: list[dict] | None = None) -> list[dict]:
     """Fuse ranks, apply transparent rules, and cap repeated documents."""
     candidates: dict[str, dict] = {}
     sources = (
         ("dense", dense, 1.0),
         ("bm25", lexical, 1.15),
+        ("image_bm25", image_lexical or [], 1.15),
         ("knowledge", knowledge or [], 1.35),
     )
     for source, values, weight in sources:
@@ -258,10 +267,12 @@ def hybrid_retrieve(question: str, dense: list[dict], k: int = 5,
                     path: Path = DEFAULT_FTS_PATH) -> list[dict]:
     expanded = expand_query(question)
     lexical = bm25_retrieve(expanded, k=max(30, k * 3), where=where, path=path)
+    image_lexical = retrieve_images(expanded, k=max(30, k * 3), where=where)
     knowledge = retrieve_knowledge(question, k=max(10, k))
     if where:
         knowledge = [
             item for item in knowledge
             if _where_matches(item.get("metadata", {}), where)
         ]
-    return hybrid_rank(question, dense, lexical, k=k, knowledge=knowledge)
+    return hybrid_rank(question, dense, lexical, k=k, knowledge=knowledge,
+                       image_lexical=image_lexical)

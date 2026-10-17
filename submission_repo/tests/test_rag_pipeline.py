@@ -163,6 +163,8 @@ class ImageIndexTests(unittest.TestCase):
             "title": "Workshop", "year": 2025, "page_type": "event",
         }
         store = Mock()
+        store.get.return_value = {"ids": ["img_old", "revimg_keep"],
+                                  "metadatas": [{}, {"evidence_pipeline": "reviewed_images_v1"}]}
         with patch.object(images, "get_store", return_value=store), patch.object(
             images, "add_to_store"
         ) as add:
@@ -171,7 +173,7 @@ class ImageIndexTests(unittest.TestCase):
             )
 
         self.assertEqual(count, 1)
-        store.delete.assert_called_once_with(where={"kind": "image"})
+        store.delete.assert_called_once_with(ids=["img_old"])
         texts, metadata = add.call_args.args[1:3]
         self.assertIn("Visible date", texts[0])
         self.assertEqual(metadata[0]["kind"], "image")
