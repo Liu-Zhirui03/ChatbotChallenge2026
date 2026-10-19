@@ -16,4 +16,4 @@ keep 分类：海报/标牌/地图等 1,478；设备/设施 165；空间布局 2
 
 这不是原图文字可读性认证，也不是语义去重完成：不同尺寸、压缩或裁剪版本仍可能同时进入候选。已发现的近似关系和来源信息保留，后续描述前可以继续选择代表图。
 
-打开 [review.html](review.html) 查看图片，默认显示 review，可切换 keep/defer 抽查。候选清单为 [keep.json](keep.json)，完整机器统计为 [summary.json](summary.json)，续跑任务为 [resume_assignment.json](resume_assignment.json)。预览页面只读，不会更改清单。
+打开 [review.html](review.html) 查看和筛选图片，默认显示尚未人工判断的 review，可切换 keep/defer 抽查。候选清单为 [keep.json](keep.json)，完整机器统计为 [summary.json](summary.json)，续跑任务为 [resume_assignment.json](resume_assignment.json)。人工判断先暂存浏览器，导出并导入项目后才生成 `reviewed_*.json`；原始 AI 结果不被覆盖。操作说明见 [目录导航](../../README.md)。

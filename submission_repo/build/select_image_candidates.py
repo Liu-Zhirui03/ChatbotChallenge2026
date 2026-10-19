@@ -3,11 +3,8 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 import hashlib
-import html
 import json
-import os
 from pathlib import Path
-from urllib.parse import quote
 from build.prepare_image_batch import ROOT, RAW, OUT, Image, ImageOps, read, save, safe_path
 from PIL import ImageDraw
 
@@ -261,18 +258,8 @@ def finalize(allow_pending=False):
                               'Existing local and previously described images were not reclassified.']}
     save(DEST / 'summary.json', summary)
     save(DEST / 'decisions.json', rows)
-    # Human reviews only exceptions; filters expose all other decisions for spot checks.
-    cards = []
-    for row in rows:
-        if row['decision'] == 'existing':
-            continue
-        source = ROOT / row.get('preview_path', row['local_path'])
-        raw = ROOT / row['local_path']
-        raw_url = quote(Path(os.path.relpath(raw, DEST)).as_posix())
-        preview_url = quote(Path(os.path.relpath(source, DEST)).as_posix())
-        cards.append(f'<article data-state="{row["decision"]}"><a href="{raw_url}"><img loading="lazy" src="{preview_url}"></a><p>{html.escape(row["id"])}<br>{row["decision"]}: {row["reason"]}<br>{row.get("width",0)} × {row.get("height",0)}</p><a href="{html.escape(row.get("url", ""), quote=True)}">Source</a></article>')
-    page = '''<!doctype html><meta charset="utf-8"><title>Image candidate screening</title><style>body{font:14px system-ui;margin:24px}main{display:flex;flex-wrap:wrap;gap:12px}article{width:270px;border:1px solid #ccc;padding:8px;overflow-wrap:anywhere}img{width:270px;height:210px;object-fit:contain}article[hidden]{display:none}</style><h1>Image screening — no descriptions generated</h1>''' + f'<p>Pending visual rechecks: {len(pending)}. Complete: {not missing_sheets}.</p>' + '''<p>Click image to open original. Default shows exceptions. Read-only audit; JSON files are authoritative.</p><select id="filter"><option>review</option><option>keep</option><option>defer</option><option>all</option></select><main>''' + ''.join(cards) + '''</main><script>function filter(){document.querySelectorAll('article').forEach(x=>x.hidden=document.querySelector('#filter').value!='all'&&x.dataset.state!=document.querySelector('#filter').value)}document.querySelector('#filter').onchange=filter;filter()</script>'''
-    (DEST / 'review.html').write_text(page, encoding='utf-8')
+    from build.review_image_candidates import render_review
+    render_review(rows, DEST, ROOT)
     print(json.dumps(summary), flush=True)
 
 if __name__ == '__main__':

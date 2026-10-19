@@ -1,5 +1,7 @@
 # 图片描述候选筛选
 
+日常使用请先看 [目录导航与快捷审核说明](../../README.md)。直接打开 [图片筛选台](review.html)，可放大、按键判断、比较相似图、批量操作、撤销和导入/导出人工判断。下文保留处理流程与技术细节。
+
 本轮仅筛选，不生成图片描述，不调用 embedding，不修改 Chroma，不删除原图。
 
 ## 范围与方法
@@ -36,7 +38,7 @@ Luna 为每张候选图写一个筛选代码，不写图片描述：
 - `existing.json`：本轮未重新筛选的既有资料。
 - `votes/`：Luna 的逐联系表判断，模型及推理档位记录。
 - `summary.json`：覆盖率、数量及限制。
-- `review.html`：本地只读预览页面，默认只展示 review；可切换 keep/defer 抽查。点击缩略图打开原图。
+- `review.html`：交互审核页面，默认展示尚未人工判断的 review；支持按键、批量判断、相似图比较、浏览器暂存和 JSON 导入/导出。不会直接修改项目数据。使用 `python -m build.review_image_candidates apply --input 导出文件.json` 导入项目后生成 `human_reviews.json` 和 `reviewed_*.json`，原始 AI 结果保留。
 
 预览图片位于被 Git 忽略的 `submission_repo/data/web_academy/selection_previews/`。JSON 中原图路径相对仓库，来源 URL 和 SHA-256 保留。联系表任务文件中的绝对路径只用于本机执行，移动仓库后应重新生成。
 
