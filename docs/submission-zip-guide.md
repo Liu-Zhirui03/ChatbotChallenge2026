@@ -1,14 +1,17 @@
 # 每次提交 ZIP：固定指令与打包白名单
 
-适用：当前 `submission_repo` 的**评测运行包**。不是整个项目备份，也不是图片采集资料包。
+适用：当前 `submission_repo` 的**私下交付运行包，包含 `.env` 和完整 `.venv/`**。
+不是整个项目备份，也不是图片采集资料包。包中包含密钥，不要公开上传 GitHub；
+是否可用于评测平台上传，应以平台的环境与上传要求为准。
 不要右键压缩整个项目或整个 `submission_repo`；不要复用之前的 ZIP。
 
 ## 下次直接给助手的指令
 
-> 请按照 `docs/submission-zip-guide.md`，把当前 `submission_repo` 打包为新的评测 ZIP。
+> 请按照 `docs/submission-zip-guide.md`，把当前 `submission_repo` 打包为新的私下交付 ZIP。
 > 只包含本文白名单文件，使用当前数据库，不重新抓取、描述、向量化或重建数据库。
 > 不修改、删除原文件，不覆盖旧 ZIP，不切换分支，不 commit 或 push。
-> 将 main.py 放在 ZIP 根目录，排除密钥、虚拟环境、图片原件、缓存、测试题、报告和其他 ZIP。
+> 将 main.py 和 .env 放在 ZIP 根目录，并完整包含 .venv/；不要输出 .env 的内容。
+> 排除项目原图、项目缓存、测试题、报告和旧 ZIP；.venv 内的依赖文件完整保留。
 > 打包后校验 ZIP 完整性及文件清单，确认数据库与源文件一致。
 > 最后告诉我 ZIP 的绝对路径、大小、所用 Git 提交和是否存在未提交修改。
 > 如果必需文件缺失、数据库正在写入或文件在打包期间发生变化，停止并说明原因，不交付不完整包。
@@ -18,6 +21,8 @@
 | 白名单 | 原因 |
 |---|---|
 | `main.py`、`requirements.txt`、`check_setup.py` | 入口、依赖和环境检查工具 |
+| `.env` | 当前 API 和环境配置，包含密钥；仅进入私下交付包，不进入 Git |
+| `.venv/` 全部文件 | 当前虚拟环境，包括隐藏文件、依赖和 `pyvenv.cfg` |
 | `bot/` 内的 `.py` 文件 | 回答、检索和模型访问代码 |
 | `build/` 内的 `.py`、`.txt` 文件 | 项目构建工具；不包含其运行产物 |
 | `data/chroma/` 内的 SQLite 和完整配套向量文件 | 已建好的向量数据库，必须一起打包 |
@@ -30,8 +35,9 @@ Chroma 当前持久化文件为 `.sqlite3`、`.bin`、`.pickle`。若版本升�
 
 以下内容**不打包**：
 
-- `.env`、密钥、`.venv/`、`venv/`、`.git/`、`__pycache__/`、`.pyc`。
-- 所有旧 `.zip`，包括 `submission.zip`、`submission_repo-1020.zip`。
+- `.git/`、未使用的其他 `venv/`，以及项目代码的 `__pycache__/`、`.pyc`。
+- 项目旧 `.zip`，包括 `submission.zip`、`submission_repo-1020.zip`；
+  `.venv/` 内依赖自带的文件不受此排除规则影响。
 - `eval/`、`tests/`、`dev_set.json`、测试答案、benchmark 报告。
 - `Labs/`、`Slides/`、`docs/`、`artifacts/`。
 - `image_source/`、`image_hzq/`、`prompt/`、`prompt_from_web/`。
@@ -41,11 +47,17 @@ Chroma 当前持久化文件为 `.sqlite3`、`.bin`、`.pickle`。若版本升�
 
 运行包利用已有索引回答问题，不需要原图和爬取资料；这些资料仍应另外保留在开发项目中。
 包内构建工具不代表此运行包拥有重新采集、描述和建库所需的全部原始资料。
-密钥和环境配置由运行环境另外提供，不能通过把 `.env` 放进 ZIP 的方式解决。
+按当前要求，`.env` 和 `.venv/` 一起交付，但不要将它们或生成的 ZIP 提交到 Git。
+普通 ZIP 不提供加密保护，请通过受控的私下渠道传递。
+
+**虚拟环境不保证可迁移。** 当前是 Windows / Python 3.13 环境，激活脚本和部分入口
+可能含原机器路径，`pyvenv.cfg` 还可能依赖原机器安装的 Python。
+换电脑、操作系统或 Python 版本时，即使包中有 `.venv/`，也可能需要根据
+`requirements.txt`（图片准备另需 `build/requirements-images.txt`）重新创建环境。
 
 ## 手动执行：复制整个 PowerShell 代码块
 
-先停止正在执行的入库、数据库更新和 chatbot 进程。下面命令：
+先停止正在执行的入库、数据库更新和 chatbot 进程，也不要同时安装或升级依赖。下面命令：
 
 - 使用主目录当前文件，包括尚未提交的修改；记录对应 Git 状态。
 - 从白名单直接写 ZIP，不创建可能混入旧文件的临时项目目录。
@@ -68,7 +80,8 @@ root = Path.cwd().resolve()
 repo = root.parent
 assert root.name == "submission_repo", "Run from submission_repo"
 required = [
-    "main.py", "requirements.txt", "check_setup.py",
+    "main.py", "requirements.txt", "check_setup.py", ".env",
+    ".venv/pyvenv.cfg", ".venv/Scripts/python.exe",
     "data/chroma/chroma.sqlite3",
     "data/text_search.sqlite", "data/image_search.sqlite",
     "data/knowledge/entities.json", "data/knowledge/facts.json",
@@ -93,6 +106,10 @@ for p in (root / "data/chroma").rglob("*"):
         raise RuntimeError("Unknown Chroma file; review whitelist: " + str(p))
     files.add(p)
 assert any(p.suffix == ".bin" for p in files), "Missing Chroma vector files"
+environment = root / ".venv"
+assert environment.is_dir() and not environment.is_symlink(), "Missing local .venv directory"
+# Include hidden files and all installed dependency files, not just .py files.
+files.update(p for p in environment.rglob("*") if p.is_file())
 
 def digest_file(path):
     with path.open("rb") as stream:
@@ -104,7 +121,8 @@ for p in sorted(files):
     assert not p.is_symlink(), "Do not package symlinks: " + str(p)
     p.resolve().relative_to(root)
     name = p.relative_to(root).as_posix()
-    assert not any(part.startswith(".") for part in Path(name).parts)
+    if name != ".env" and not name.startswith(".venv/"):
+        assert not any(part.startswith(".") for part in Path(name).parts)
     inventory[name] = {"bytes": p.stat().st_size, "sha256": digest_file(p)}
 
 commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=repo, text=True).strip()
@@ -118,11 +136,12 @@ if os.environ.get("PACKAGE_DRY_RUN") == "1":
 stamp = datetime.now(timezone(timedelta(hours=8))).strftime("%Y%m%d-%H%M%S-%f")
 destination = repo.parent / "submission_packages"
 destination.mkdir(exist_ok=True)
-archive = destination / ("submission-" + stamp + "-" + commit[:7] + ".zip")
+archive = destination / ("submission-private-with-env-" + stamp + "-" + commit[:7] + ".zip")
 manifest = {
     "created_at_asia_shanghai": stamp, "git_commit": commit, "git_branch": branch,
     "git_status": status.splitlines(), "files": inventory,
-    "note": "Working-tree runtime package; no API calls or database rebuild.",
+    "contains_secrets": True, "includes_virtualenv": True,
+    "note": "Private runtime package with .env and .venv; do not publish.",
 }
 with zipfile.ZipFile(archive, "x", compression=zipfile.ZIP_DEFLATED) as z:
     for name in inventory:
@@ -132,6 +151,9 @@ with zipfile.ZipFile(archive) as z:
     assert z.testzip() is None, "ZIP integrity failure"
     assert set(z.namelist()) == set(inventory) | {"PACKAGE_MANIFEST.json"}
     assert "main.py" in z.namelist(), "main.py must be at ZIP root"
+    assert ".env" in z.namelist(), "Missing .env"
+    assert ".venv/pyvenv.cfg" in z.namelist(), "Missing virtualenv configuration"
+    assert ".venv/Scripts/python.exe" in z.namelist(), "Missing virtualenv interpreter"
     for name, expected in inventory.items():
         with z.open(name) as stream:
             archived_hash = hashlib.file_digest(stream, "sha256").hexdigest()
@@ -152,9 +174,10 @@ if ($LASTEXITCODE -ne 0) { throw 'Packaging failed. Do not submit an unverified 
 
 1. ZIP 根目录有 `main.py`，不是 `ChatbotChallenge2026/submission_repo/main.py`。
 2. 有完整 `data/chroma/`、两个关键词索引及知识 JSON。
-3. 没有 `.env`、虚拟环境、测试题、原图和嵌套 ZIP。
+3. 根目录有 `.env`，并有完整 `.venv/`；没有混入项目测试题、原图或旧提交 ZIP。
 4. `PACKAGE_MANIFEST.json` 记录了这次包的文件哈希、Git 版本和未提交状态。
 5. 打包成功只证明文件完整，**不代表 API 可用或 benchmark 已通过**。
-   需要验证回答时，应在独立解压目录配置环境并运行 `main.py`，不要把密钥再打回包中。
+   需要验证回答时，应在独立解压目录检查环境路径后运行 `main.py`。
+6. 此包包含密钥，只进行私下交付，不公开上传仓库。
 
 这里不自动 push，不自动上传评测平台，也不更改当前分支。
