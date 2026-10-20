@@ -171,6 +171,10 @@ def prepare(repo: Path = REPO) -> tuple[list[dict], dict]:
                     body, [source_id], "text", "web_image", "web_context", page,
                     review["reviewed_at"][:10], context_field=key, image_url=item["url"],
                     retrieved_at=occurrence.get("retrieved_at", "unknown")))
+    from build.describe_priority_images import evidence as priority_evidence
+    additional, additional_assets = priority_evidence(repo)
+    records.extend(additional)
+    assets.update(additional_assets)
     unique = {}
     for record in records:
         unique.setdefault(record["id"], record)
@@ -180,7 +184,8 @@ def prepare(repo: Path = REPO) -> tuple[list[dict], dict]:
     if not result or not assets:
         raise ValueError("No reviewed records; refusing empty replacement")
     return result, {"schema_version": 1, "pipeline": PIPELINE, "assets": assets,
-                    "local_documents": len(local_files), "web_reviewed_images": len(reviews)}
+                    "local_documents": len(local_files), "web_reviewed_images": len(reviews),
+                    "priority_described_images": len(additional_assets)}
 
 
 def build_bm25(records: list[dict], path: Path = INDEX_PATH):

@@ -13,3 +13,11 @@ submission_repo/data/image_search.sqlite*
 submission_repo/data/image_evidence/embeddings/
 submission_repo/data/image_evidence/indexed.json
 submission_repo/eval/image_runs/
+
+# Local resume state, backups and duplicate handoff archives.
+submission_repo/data/image_evidence/curated_backups/
+submission_repo/data/image_evidence/curated_ingest.lock
+submission_repo/data/image_evidence/curated_pending.json
+submission_repo/data/image_evidence/curated_staged.sqlite*
+prompt_from_web/innoacademy/preparation/priority_descriptions/api_failures.json
+prompt_from_web/innoacademy/preparation/curation/curated-image-evidence.zip

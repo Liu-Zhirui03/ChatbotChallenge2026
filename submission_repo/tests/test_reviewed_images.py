@@ -76,7 +76,13 @@ class ReviewedImageTests(unittest.TestCase):
             self.assertEqual(value["metadata"]["kind"], "text")
             self.assertIn("not visible image evidence", value["text"])
         for value in records:
-            self.assertEqual(value["metadata"]["status"], "assistant_reviewed")
+            if value["metadata"].get("curation_version") == "image-text-curation-v1":
+                self.assertEqual(value["metadata"]["status"], "text_curated_not_visual_verified")
+                self.assertIs(value["metadata"]["visual_reverified"], False)
+                self.assertEqual(value["metadata"]["evidence_type"], "visual_description")
+                self.assertTrue(value["metadata"]["description_sha256"])
+            else:
+                self.assertEqual(value["metadata"]["status"], "assistant_reviewed")
             self.assertTrue(value["metadata"]["source_ids_json"])
 
 
