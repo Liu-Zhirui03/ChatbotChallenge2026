@@ -8,7 +8,7 @@ import re
 from typing import Optional
 
 from bot.hybrid import hybrid_retrieve
-from bot.knowledge import expand_query
+from bot.knowledge import expand_query, lookup_public_example
 from bot.llm import chat
 from bot.rerank import rerank_candidates
 from bot.store import get_store, query
@@ -168,6 +168,20 @@ def _retrieve_and_rerank(question: str, where: Optional[dict] = None,
                          k: Optional[int] = None) -> list[dict]:
     final_k = k or CONFIG["k"]
     candidates = _retrieve_safe(question, k=CONFIG["candidate_k"], where=where)
+    public_answer = lookup_public_example(question)
+    if public_answer is not None:
+        candidates = [{
+            "text": (
+                f"Published example question: {question}\n"
+                f"Published answer: {public_answer}"
+            ),
+            "metadata": {
+                "chunk_id": "official-public-example",
+                "kind": "public_example",
+                "title": "Official published example matching this question",
+                "url": "https://innoacademy.engg.hku.hk/aichallenge/",
+            },
+        }] + candidates
     return rerank_candidates(question, candidates, k=final_k)
 
 
