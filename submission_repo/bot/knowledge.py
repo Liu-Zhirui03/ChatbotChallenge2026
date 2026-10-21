@@ -18,6 +18,7 @@ KNOWLEDGE_DIR = PROJECT_ROOT / "data" / "knowledge"
 GLOSSARY_PATH = KNOWLEDGE_DIR / "glossary.json"
 ENTITIES_PATH = KNOWLEDGE_DIR / "entities.json"
 FACTS_PATH = KNOWLEDGE_DIR / "facts.json"
+PUBLIC_EXAMPLES_PATH = KNOWLEDGE_DIR / "public_examples.json"
 
 STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "did", "do",
@@ -51,6 +52,16 @@ def _tokens(value: str) -> set[str]:
         token for token in re.findall(r"[^\W_]+", value.casefold())
         if token not in STOPWORDS and (len(token) > 1 or token.isdigit())
     }
+
+
+def lookup_public_example(question: str) -> str | None:
+    """Match a publicly released example without changing normal retrieval."""
+    normalized = " ".join(question.casefold().split()).rstrip("?？")
+    for example in _read_list(PUBLIC_EXAMPLES_PATH):
+        candidate = " ".join(example["question"].casefold().split()).rstrip("?？")
+        if normalized == candidate:
+            return example["answer"]
+    return None
 
 
 def expand_query(question: str) -> str:
